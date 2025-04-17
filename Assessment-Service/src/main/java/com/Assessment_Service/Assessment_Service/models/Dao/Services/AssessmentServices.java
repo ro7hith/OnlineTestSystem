@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.Assessment_Service.Assessment_Service.dtos.AssessmentDetailsDto;
 import com.Assessment_Service.Assessment_Service.dtos.AssessmentRequest;
+import com.Assessment_Service.Assessment_Service.dtos.UserTopicAverageDto;
 import com.Assessment_Service.Assessment_Service.models.Dao.ServiceImpl.IAssessment;
 import com.Assessment_Service.Assessment_Service.models.Pojo.AssessScore;
 import com.Assessment_Service.Assessment_Service.models.Pojo.Assessment;
@@ -44,12 +45,22 @@ public class AssessmentServices implements IAssessment {
 		// TODO Auto-generated method stub
 		return scoresRepo.noOfCorrectOptions(assessmentId) + " Out of " + scoresRepo.noOfQuestions(assessmentId);
 	}
+//	public String getStats(int assessmentId) {
+//		// TODO Auto-generated method stub
+//		return "Correct Answers: "+scoresRepo.noOfCorrectOptions(assessmentId) +"\n" +
+//				"Questions: "+ scoresRepo.noOfQuestions(assessmentId)+"\n"+
+//				"IncorrectAnswers: "+scoresRepo.noOfIncorrectOptions(assessmentId);
+//	}
 	public String getStats(int assessmentId) {
-		// TODO Auto-generated method stub
-		return "Correct Answers"+scoresRepo.noOfCorrectOptions(assessmentId) +"\n" +
-				"Questions"+ scoresRepo.noOfQuestions(assessmentId)+"\n"+
-				"IncorrectAnswers"+scoresRepo.noOfIncorrectOptions(assessmentId);
+	    int correct = scoresRepo.noOfCorrectOptions(assessmentId);
+	    int total = scoresRepo.noOfQuestions(assessmentId);
+	    int incorrect = scoresRepo.noOfIncorrectOptions(assessmentId);
+
+	    return "No of Questions: " + total + "<br>" +
+	           "Correct Answers: " + correct + "<br>" +
+	           "Incorrect Answers: " + incorrect;
 	}
+
 	
 	public List<AssessmentDetailsDto> getAssessmentDetailsById(int assessmentId) {
         List<Object[]> results = assessrepository.findAssessmentDetailsById(assessmentId);
@@ -69,5 +80,22 @@ public class AssessmentServices implements IAssessment {
         }
         return assessmentDetails;
     }
+	
+	public List<UserTopicAverageDto> getUserTopicAveragesForUser(String email) {
+	    List<Object[]> rawData = assessrepository.fetchUserTopicAveragesByEmail(email);
+	    List<UserTopicAverageDto> result = new ArrayList<>();
+
+	    for (Object[] row : rawData) {
+	        result.add(new UserTopicAverageDto(
+	            (String) row[0],     
+	            (String) row[1],   
+	            (String) row[2],   
+	            row[3] != null ? ((Number) row[3]).doubleValue() : 0.0 
+	        ));
+	    }
+
+	    return result;
+	}
+
 
 }
