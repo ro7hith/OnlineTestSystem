@@ -7,7 +7,7 @@ import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.stereotype.Component;
 @Component
 public class RoutingValidator {
-	public static final List<String> openApiEndPoints = List.of("/auth/register", "/auth/token","/auth/validate");
+	public static final List<String> openApiEndPoints = List.of("/auth/register", "/auth/token","/auth/validate","/auth/forgot-password","/auth/reset-password");
 
 	public Predicate<ServerHttpRequest> isSecured = 
 			i -> openApiEndPoints.stream()
