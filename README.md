@@ -76,3 +76,43 @@ OnlineTestSystem/ ├── backend/ # Spring Boot API services ├── fronte
 ---
 
 Feel free to explore, fork, and contribute to the project. Let's learn and grow together!
+
+📄 **Note:** A file named **"Questions for DB"** has been added to help populate the database with sample quiz questions for testing and demonstration purposes.
+
+## 🧪 Testing
+Unit Testing: JUnit, Mockito
+Integration Tests for API endpoints
+Postman Collection included for manual API testing
+
+## ☁️ Deployment (Optional)
+Backend deployed on AWS EC2 and RDS
+Dynamic front-end hosted via AWS S3 + CloudFront
+Jenkins pipelines for CI/CD
+
+## 📸 Screenshots
+
+Here are a few screenshots showcasing key parts of the **OnlineTestSystem** platform:
+
+### 🏠 Homepage
+![Homepage](./Pictures/Homepage.png)
+
+### 🔐 Login Page
+![Login Page](./Pictures/Loginpage.png)
+
+### 📝 Register Page
+![Register Page](./Pictures/Register.png)
+
+### ⚙️ Quiz Setup
+![Quiz Setup](./Pictures/Setup.png)
+
+### ❓ Quiz in Progress
+![Question View](./Pictures/Question.png)
+
+### 🧮 Scorecard
+![Scorecard](./Pictures/Score.png)
+
+### 📊 Stats Page
+![Stats Page](./Pictures/Statspage.png)
+
+### 🔍 Quiz Review Details
+![Review Page](./Pictures/Details.png)
