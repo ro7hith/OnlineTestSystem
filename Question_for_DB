@@ -1,0 +1,1038 @@
+Here are the SQL commands for questions in the DB
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('var', 'let', 'var', 'const', 'final', 'Which keyword is used to declare a variable in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('func', 'function', 'def', 'func', 'method', 'Which keyword is used to define a function in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, 'int', 'float', 'string', 'bool', 'What is the default data type for numeric values in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES (':=', '=', ':=', '==', '::', 'Which operator is used for short variable declaration in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('main', 'start', 'init', 'main', 'launch', 'Which function is the entry point for a Go program?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('string', 'int', 'char', 'string', 'boolean', 'What data type is used to represent a sequence of characters in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('append', 'add', 'push', 'insert', 'append', 'Which function is used to add elements to a slice in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('map', 'set', 'list', 'map', 'array', 'What data structure in Go is used to store key-value pairs?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('go run', 'go start', 'go exec', 'go run', 'go build', 'Which command is used to execute a Go program?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('go fmt', 'go tidy', 'go style', 'go fmt', 'go fix', 'Which command is used to format Go source code?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('defer', 'stop', 'delay', 'defer', 'post', 'Which keyword is used to schedule a function to be executed after the surrounding function completes?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('int', 'char', 'float', 'int', 'double', 'Which data type is used to represent integers in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('goroutine', 'thread', 'process', 'goroutine', 'task', 'What is the term used in Go to represent lightweight concurrent execution units?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('select', 'case', 'switch', 'select', 'if', 'Which keyword is used in Go to wait on multiple channels?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('channel', 'queue', 'list', 'channel', 'stack', 'What is used to communicate between goroutines in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('go test', 'go run', 'go test', 'go build', 'go check', 'Which command is used to run tests in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('continue', 'exit', 'break', 'continue', 'return', 'Which statement is used to skip the current iteration of a loop in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('iota', 'id', 'iota', 'auto', 'value', 'Which keyword is used to create incrementing constants in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('interface', 'structure', 'interface', 'class', 'type', 'What is used in Go to define a contract for types?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('range', 'map', 'range', 'foreach', 'while', 'Which keyword is used in Go to iterate over a collection?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('true', 'yes', 'true', '1', 'on', 'Which value represents a boolean true in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('nil', 'null', 'none', 'nil', 'undefined', 'What value represents a null or empty reference in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('new', 'create', 'new', 'make', 'alloc', 'Which function is used to allocate memory for a value in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('make', 'new', 'make', 'allocate', 'init', 'Which function is used to initialize slices, maps, and channels in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('go get', 'go install', 'go download', 'go get', 'go fetch', 'Which command is used to download and install dependencies in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('import', 'include', 'import', 'use', 'require', 'Which keyword is used to include packages in Go?', 'Easy', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('declaration', 'init', 'constructor', 'declaration', 'setup', 'What term is used for a variable initialization block in Go?', 'Easy', 'Go');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('interface{},', 'object', 'interface{},', 'any', 'type', 'Which Go type is used to represent any value of any type?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('sync.Mutex', 'sync.WaitGroup', 'sync.Mutex', 'sync.RWMutex', 'sync.Atomic', 'Which Go type is used to ensure mutual exclusion (mutex) during concurrent programming?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('defer', 'go', 'defer', 'return', 'break', 'Which Go statement is used to delay the execution of a function until the surrounding function returns?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('type assertion', 'type conversion', 'type assertion', 'type cast', 'type checking', 'In Go, what is used to convert an interface type to a concrete type?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('goroutines', 'threads', 'goroutines', 'tasks', 'jobs', 'In Go, what term is used to describe lightweight concurrent execution units?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('select', 'switch', 'select', 'case', 'defer', 'Which Go statement is used to wait for multiple channel operations?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('sync.WaitGroup', 'sync.Once', 'sync.WaitGroup', 'sync.Mutex', 'sync.Atomic', 'Which Go type is used to wait for a collection of goroutines to finish executing?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('defer', 'return', 'defer', 'exit', 'break', 'Which Go keyword is used to ensure that a function call is executed after the surrounding function completes?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('interface', 'type', 'interface', 'struct', 'class', 'What Go concept defines a set of methods that a type must implement?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('map', 'slice', 'map', 'array', 'list', 'Which data structure in Go is an unordered collection of key-value pairs?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('panic', 'crash', 'panic', 'throw', 'abort', 'Which function is used in Go to raise a runtime error intentionally?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('defer', 'go', 'defer', 'return', 'pause', 'What keyword is used in Go to ensure a function is called when the surrounding function completes, even if there is an error?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('go mod', 'go install', 'go mod', 'go build', 'go update', 'Which command in Go is used to manage dependencies in a project?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('make(chan Type)', 'channel Type', 'chan Type', 'make(chan Type)', 'channel<- Type', 'Which Go function is used to create a new channel?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('runtime.GOOS', 'os.name', 'runtime.GOOS', 'system.os', 'os.type', 'Which Go variable is used to get the operating system name at runtime?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('defer', 'return', 'defer', 'exit', 'continue', 'Which Go keyword is used to ensure the execution of a function call after the surrounding function finishes?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('range', 'iterate', 'range', 'map', 'foreach', 'Which Go keyword is used to iterate over collections like arrays, slices, or maps?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('type alias', 'type struct', 'type alias', 'type conversion', 'type cast', 'What feature in Go allows you to create a new name for an existing type?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('interface{}', 'any', 'any{}', 'interface{}', 'type{}', 'What is the empty interface type in Go used to represent all types?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('go run', 'go execute', 'go start', 'go run', 'go play', 'Which command is used to compile and run a Go program in one step?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('runtime.GOARCH', 'system.arch', 'runtime.GOARCH', 'os.architecture', 'runtime.sys', 'Which Go variable gives the architecture (e.g., amd64) of the machine running the Go program?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('runtime.GOMAXPROCS', 'runtime.MAXPROCS', 'runtime.GOMAXPROCS', 'os.maxprocs', 'runtime.NumCPU', 'Which Go function is used to set the maximum number of CPUs that can be used by the Go runtime?', 'Medium', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('error', 'panic', 'error', 'exception', 'failure', 'What type in Go is used to represent an error or failure during program execution?', 'Medium', 'Go');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('sync/atomic', 'sync.Mutex', 'sync/atomic', 'sync.WaitGroup', 'sync.RWMutex', 'Which Go package provides atomic operations for synchronization in concurrent programming?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, 'defer', 'go', 'return', 'defer', 'Which Go keyword is used to ensure a function is executed even if a panic occurs?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('context.WithTimeout', 'context.WithCancel', 'context.WithValue', 'context.WithTimeout', 'context.WithDeadline', 'Which Go function is used to create a new context with a timeout?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('select', 'break', 'continue', 'select', 'return', 'Which Go keyword is used to implement multiple channel operations in a non-blocking manner?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('sync.Pool', 'sync.Mutex', 'sync.Pool', 'sync.WaitGroup', 'sync.Atomic', 'Which Go type is used to manage a pool of temporary objects for efficient memory reuse?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('defer', 'panic', 'return', 'defer', 'exit', 'Which Go keyword ensures that a function is called after the surrounding function returns, even if a panic occurs?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('channel direction', 'channel type', 'channel direction', 'channel type restriction', 'channel scope', 'In Go, how do you restrict the direction of a channel (send-only or receive-only)?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('go build -a', 'go build -v', 'go build -a', 'go build -x', 'go build -r', 'Which Go command is used to force the rebuilding of all packages, ignoring cache?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('type switch', 'type assertion', 'type cast', 'type switch', 'type conversion', 'What Go feature allows you to test the type of an interface variable in a multi-case statement?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('reflection', 'runtime', 'reflection', 'metaprogramming', 'introspection', 'What Go package provides the ability to inspect and manipulate objects at runtime?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('go test -cover', 'go test -race', 'go test -cover', 'go test -bench', 'go test -timeout', 'Which command in Go is used to run tests with code coverage analysis?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('sync.Once', 'sync.WaitGroup', 'sync.Once', 'sync.Mutex', 'sync.Pool', 'Which Go type ensures that a function is executed only once, even in concurrent environments?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('atomic.CompareAndSwap', 'sync.Mutex.Lock', 'atomic.CompareAndSwap', 'sync.WaitGroup.Add', 'sync.Atomic', 'Which atomic function is used to atomically compare and swap the value of a variable in Go?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('sync.RWMutex', 'sync.Mutex', 'sync.RWMutex', 'sync.WaitGroup', 'sync.Atomic', 'Which Go type is used to provide read-write locking for shared resources?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('go run -race', 'go test -race', 'go run -race', 'go run -v', 'go run -bench', 'Which command is used to check for race conditions during Go program execution?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('runtime.Callers', 'runtime.Stack', 'runtime.Callers', 'runtime.GOROOT', 'runtime.GOMAXPROCS', 'Which Go function is used to obtain the current stack trace during a program’s execution?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('go mod tidy', 'go mod init', 'go mod tidy', 'go mod vendor', 'go mod download', 'Which command is used to remove any unused dependencies and tidy up the `go.mod` file?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('defer', 'go', 'defer', 'return', 'break', 'What Go keyword is used to ensure that resources are released after function execution, even in case of a panic?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('context.Background', 'context.TODO', 'context.Background', 'context.Cancel', 'context.New', 'Which function is used to create a root context in Go for passing between goroutines?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('unsafe.Pointer', 'unsafe.Type', 'unsafe.Pointer', 'unsafe.Address', 'unsafe.Struct', 'Which Go type is used to convert between arbitrary pointer types in a type-safe manner?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('sync/atomic.AddInt32', 'atomic.AddInt32', 'sync/atomic.AddInt32', 'sync/atomic.LoadInt32', 'sync/atomic.StoreInt32', 'Which atomic function is used to atomically add a value to an integer in Go?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('go test -run', 'go test -bench', 'go test -run', 'go test -cover', 'go test -v', 'Which Go command is used to run specific tests within a test file?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('reflect.DeepEqual', 'reflect.Equal', 'reflect.DeepEqual', 'reflect.IsEqual', 'reflect.Compare', 'Which Go function is used to compare two values deeply, including their fields?', 'Hard', 'Go');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('reflect.Value', 'reflect.Type', 'reflect.Value', 'reflect.Struct', 'reflect.Pointer', 'Which Go type is used to represent and manipulate the runtime values of variables in reflection?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('go run -gcflags="-m"', 'go run -v', 'go build -gcflags="-m"', 'go run -gcflags="-m"', 'go build -v', 'Which Go command is used to print out detailed information about the compiler optimizations during execution?', 'Hard', 'Go');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('channel closing', 'channel closure', 'channel closing', 'channel stop', 'channel discard', 'In Go, what is the process of signaling that no more values will be sent on a channel called?', 'Hard', 'Go');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('JSX', 'JavaScript', 'JSX', 'JSON', 'HTML', 'What syntax extension is used in React to write HTML-like code inside JavaScript?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('component', 'function', 'method', 'component', 'module', 'In React, what do you call a building block that represents part of the user interface?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('props', 'state', 'props', 'methods', 'reducers', 'What is used in React to pass data from a parent component to a child component?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('state', 'data', 'state', 'props', 'hooks', 'In React, which concept is used to manage a component’s internal data or state?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useState', 'useEffect', 'useState', 'useReducer', 'useContext', 'Which React hook is used to declare state in functional components?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('JSX', 'JavaScript', 'JSON', 'HTML', 'JSX', 'What is the abbreviation for the syntax that allows HTML to be written inside JavaScript in React?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useEffect', 'useState', 'useEffect', 'useReducer', 'useMemo', 'Which hook is used in React to perform side effects in functional components?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('render', 'display', 'show', 'render', 'output', 'In React, which function is responsible for rendering a component’s output to the DOM?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('props', 'data', 'state', 'props', 'functions', 'What is the name of the mechanism in React that allows you to pass data to child components?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('class', 'function', 'class', 'type', 'component', 'Which type of component is created by extending the React.Component class in React?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('state', 'props', 'state', 'method', 'component', 'Which property of a React component holds data that can change over time?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ReactDOM.render', 'React.render', 'ReactDOM.render', 'React.mount', 'React.createElement', 'Which function is used to render a React component to the DOM?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useState', 'useContext', 'useState', 'useReducer', 'useCallback', 'Which hook is used to manage a component’s state in React functional components?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('import React from "react"', 'import React from "react-dom"', 'import React from "react"', 'import React from "js"', 'import React from "react.js"', 'Which statement is used to import React in a JavaScript file?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useEffect', 'useState', 'useEffect', 'useReducer', 'useContext', 'Which React hook is used to perform side effects like data fetching in functional components?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('JSX', 'HTML', 'XML', 'JSX', 'JSON', 'What type of syntax does React use that looks similar to HTML but is actually JavaScript?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.Fragment', 'Fragment', 'React.Fragment', 'React.Element', 'React.Node', 'Which React component is used to group a list of children without adding an extra node to the DOM?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.Component', 'React.Function', 'React.Component', 'React.Element', 'React.Node', 'Which class is used to create class components in React?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('props', 'methods', 'state', 'props', 'functions', 'Which term refers to the data passed into a React component from a parent component?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('state', 'props', 'state', 'methods', 'hooks', 'In React, which property is used to manage data that can change over time within a component?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React', 'Vue', 'React', 'Angular', 'Svelte', 'Which library is used to build user interfaces using reusable components?', 'Easy', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.createElement', 'React.createNode', 'React.createElement', 'React.renderElement', 'React.createComponent', 'Which function is used to create an element in React?', 'Easy', 'React');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useContext', 'useState', 'useEffect', 'useContext', 'useReducer', 'Which hook is used in React to manage and share state across multiple components without prop drilling?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useCallback', 'useMemo', 'useCallback', 'useReducer', 'useState', 'Which React hook is used to memoize a function so that it is not recreated on each render?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('componentDidUpdate', 'componentDidMount', 'componentWillUnmount', 'componentDidUpdate', 'componentWillReceiveProps', 'Which React lifecycle method is called after a component updates but before the re-render occurs?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useReducer', 'useState', 'useReducer', 'useEffect', 'useCallback', 'Which React hook is best suited for managing more complex state logic in functional components?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('key', 'id', 'key', 'ref', 'className', 'In React, which attribute is used to help React identify which items have changed, been added, or removed when rendering a list?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.memo', 'useMemo', 'React.memo', 'useCallback', 'PureComponent', 'Which React function is used to prevent unnecessary re-renders of a component by memoizing it?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('componentWillMount', 'componentWillReceiveProps', 'componentWillMount', 'componentDidUpdate', 'componentDidMount', 'Which lifecycle method was deprecated in React 16.3 due to its potential issues with asynchronous rendering?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('forwardRef', 'useRef', 'forwardRef', 'useCallback', 'useContext', 'Which React function allows a parent component to pass a ref to a child component?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useEffect', 'useState', 'useEffect', 'useMemo', 'useContext', 'Which hook in React can be used for performing side effects like data fetching or subscriptions in functional components?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('PropTypes', 'StateTypes', 'PropTypes', 'ComponentTypes', 'ReactTypes', 'Which package is commonly used to perform runtime validation of props in React components?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Suspense', 'AsyncComponent', 'Suspense', 'LazyLoad', 'ErrorBoundary', 'Which feature in React allows you to render components asynchronously and manage loading states?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('getDerivedStateFromProps', 'shouldComponentUpdate', 'getDerivedStateFromProps', 'componentWillReceiveProps', 'getSnapshotBeforeUpdate', 'Which lifecycle method is called before every render, both during the initial and update phases, and is used to derive state from props?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useLayoutEffect', 'useEffect', 'useLayoutEffect', 'useRef', 'useState', 'Which hook in React is used to perform DOM mutations synchronously after all DOM updates, and can be used to measure layout?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useImperativeHandle', 'useEffect', 'useImperativeHandle', 'useContext', 'useRef', 'Which React hook is used to customize the instance value that is exposed when using `ref` with `forwardRef`?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.StrictMode', 'React.Debug', 'React.StrictMode', 'React.Test', 'React.Validation', 'Which component in React helps to identify potential problems by running additional checks and warnings in development mode?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('key', 'ref', 'key', 'id', 'className', 'In React, what is the special attribute used in lists to help React optimize updates by identifying each item uniquely?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.createContext', 'React.createState', 'React.createContext', 'React.createProvider', 'React.createService', 'Which method in React is used to create a context for sharing values across components?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.Fragment', 'Fragment', 'React.Fragment', 'React.Component', 'React.Node', 'Which component is used to group multiple elements without introducing an extra DOM node?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.lazy', 'React.Async', 'React.lazy', 'React.defer', 'React.delay', 'Which function in React is used to dynamically import a component and render it asynchronously?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('componentWillUnmount', 'componentDidMount', 'componentWillUnmount', 'componentWillReceiveProps', 'componentDidUpdate', 'Which lifecycle method is called when a component is about to be removed from the DOM?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('shouldComponentUpdate', 'getSnapshotBeforeUpdate', 'shouldComponentUpdate', 'getDerivedStateFromProps', 'componentDidMount', 'Which lifecycle method allows a component to decide whether it should re-render based on changes in state or props?', 'Medium', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('state', 'props', 'state', 'hooks', 'reducers', 'In React, which concept is used to hold and manage data that can change within a component?', 'Medium', 'React');
+
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useMemo', 'useEffect', 'useMemo', 'useCallback', 'useState', 'Which hook in React is used to memoize a computed value and avoid unnecessary recalculations during re-renders?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.PureComponent', 'React.Component', 'React.PureComponent', 'React.Fragment', 'React.MemoComponent', 'Which class component in React automatically implements `shouldComponentUpdate` with a shallow prop and state comparison?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Concurrent Mode', 'Fiber Mode', 'Concurrent Mode', 'Lazy Loading', 'Async Rendering', 'Which experimental feature in React allows for interruptible rendering, improving app performance by rendering parts of the UI in the background?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useDeferredValue', 'useTransition', 'useDeferredValue', 'useMemo', 'useEffect', 'Which React hook is used to defer updating the value of a component until the next render, without blocking the main thread?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useImperativeHandle', 'useEffect', 'useImperativeHandle', 'useState', 'useContext', 'Which React hook is used to customize the values exposed to parent components through `ref` when using `forwardRef`?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Suspense for Data Fetching', 'Suspense', 'Suspense for Data Fetching', 'React.lazy', 'ErrorBoundary', 'Which feature in React is used to manage data fetching with asynchronous rendering?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React Server Components', 'React Suspense', 'React Concurrent', 'React Server Components', 'React Lazy Components', 'Which concept in React allows for rendering parts of a component tree on the server, sending HTML to the client without needing to hydrate it?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React Fiber', 'React Core', 'React Fiber', 'React Redux', 'React Hooks', 'Which architecture was introduced in React 16 to enable features like Concurrent Mode and Suspense?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('getDerivedStateFromError', 'componentDidCatch', 'getDerivedStateFromError', 'componentWillUnmount', 'getSnapshotBeforeUpdate', 'Which lifecycle method is used in error boundaries to handle errors during rendering and reset the state?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Concurrent Rendering', 'Concurrent Mode', 'Suspense', 'Concurrent Rendering', 'Lazy Loading', 'Which React feature allows for multiple rendering paths and provides better UI responsiveness?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useTransition', 'useDeferredValue', 'useTransition', 'useMemo', 'useCallback', 'Which hook in React is used to manage and optimize slow state transitions in concurrent rendering?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useLayoutEffect', 'useEffect', 'useLayoutEffect', 'useMemo', 'useState', 'Which React hook is called synchronously after all DOM mutations and can be used to read layout from the DOM before the browser repaints?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.StrictMode', 'React.Strict', 'React.StrictMode', 'React.OptimizedMode', 'React.SafeMode', 'Which React component helps identify potential problems in an app by intentionally double-invoking certain lifecycle methods in development?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('shouldComponentUpdate', 'shouldComponentUpdate', 'getSnapshotBeforeUpdate', 'componentDidUpdate', 'getDerivedStateFromProps', 'Which lifecycle method allows you to optimize rendering by deciding whether a component should re-render based on prop or state changes?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('useRef', 'useState', 'useEffect', 'useRef', 'useCallback', 'Which React hook is used to persist values across renders without causing re-renders when updated?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.memo', 'React.memo', 'React.Component', 'React.PureComponent', 'React.Fragment', 'Which higher-order component is used in React to prevent unnecessary re-renders by memoizing a component?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('componentDidCatch', 'getDerivedStateFromProps', 'componentDidCatch', 'getSnapshotBeforeUpdate', 'getDerivedStateFromError', 'Which lifecycle method is used to catch errors in React component trees and display fallback UI?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React Concurrent Mode', 'React Concurrent', 'React Lazy Mode', 'React Concurrent Mode', 'React Synchronous Mode', 'Which React mode allows rendering to be interruptible, enabling better performance and responsiveness during UI updates?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React Suspense', 'React Suspense', 'React.Context', 'React.Async', 'React.Memo', 'Which feature in React is used to handle asynchronous rendering, enabling components to wait for data to be loaded before they are rendered?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Error Boundaries', 'Error Boundaries', 'tryCatch', 'componentDidCatch', 'getDerivedStateFromError', 'What is the name of the React concept used to catch JavaScript errors in child components and display fallback UI?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.lazy', 'React.lazy', 'React.loadable', 'React.dynamic', 'React.Suspense', 'Which React function is used to dynamically import components and render them lazily?', 'Hard', 'React');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.createContext', 'useContext', 'React.createContext', 'useReducer', 'useEffect', 'Which method in React is used to create a context object that can be shared across components to manage global state?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('forwardRef', 'useRef', 'forwardRef', 'useState', 'useCallback', 'Which React function is used to pass a ref to a child component when the child component is a functional component?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('getSnapshotBeforeUpdate', 'componentDidUpdate', 'getSnapshotBeforeUpdate', 'componentDidMount', 'shouldComponentUpdate', 'Which lifecycle method is called right before React applies changes to the DOM, allowing you to capture values from the DOM before the update?', 'Hard', 'React');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('React.StrictMode', 'React.DebugMode', 'React.StrictMode', 'React.ValidationMode', 'React.OptimizationMode', 'Which component in React is used to help identify unsafe lifecycle methods and side-effects in development?', 'Hard', 'React');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HANA Studio', 'HANA Cloud', 'HANA Studio', 'HANA Manager', 'HANA Web', 'Which tool is used for managing and administering SAP HANA databases?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Column Store', 'Row Store', 'Hybrid Store', 'Column Store', 'Data Warehouse', 'In SAP HANA, which type of data storage is optimized for analytics and queries on large datasets?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HANA Database', 'SAP BW', 'HANA Database', 'SAP Fiori', 'SAP ERP', 'Which database platform is used by SAP S/4HANA as its core database for real-time processing?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA XS Engine', 'SAP HANA Studio', 'SAP HANA XS Engine', 'SAP Fiori', 'SAP Gateway', 'Which SAP HANA feature is used to build and run web applications directly within the SAP HANA environment?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SQLScript', 'ABAP', 'SQLScript', 'JavaScript', 'Python', 'Which programming language is used for writing stored procedures and functions in SAP HANA?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Calculation Views', 'Attribute Views', 'Analytical Views', 'Calculation Views', 'Hierarchical Views', 'Which type of view in SAP HANA is used to combine data from different tables for reporting and analytical purposes?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Cloud', 'SAP HANA Cloud', 'SAP HANA Studio', 'SAP HANA Classic', 'SAP BW', 'Which platform provides SAP HANA as a fully managed cloud service?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HANA Data Services', 'SAP BW', 'HANA Data Services', 'SAP Fiori', 'SAP Cloud', 'Which SAP tool is used for data integration and transformation within SAP HANA?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Studio', 'SAP HANA Manager', 'SAP HANA Studio', 'SAP Web IDE', 'SAP Fiori', 'Which tool is primarily used to design, deploy, and monitor SAP HANA applications and databases?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Row Store', 'Column Store', 'Hybrid Store', 'Row Store', 'Data Warehouse', 'In SAP HANA, which type of data storage is optimized for transactional processing (OLTP)?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA XS Advanced', 'SAP HANA XS Engine', 'SAP HANA XS Advanced', 'SAP HANA Classic', 'SAP HANA Cloud', 'Which runtime environment is used for developing modern applications in SAP HANA, supporting Node.js and Java applications?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Database Views', 'Attribute Views', 'Analytical Views', 'Database Views', 'Calculation Views', 'Which type of view in SAP HANA is primarily used to provide a logical representation of data without physically storing the data?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Studio', 'SAP Web IDE', 'SAP Fiori', 'SAP HANA Studio', 'SAP Gateway', 'Which tool is used for database modeling and application development in SAP HANA?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HANA Live', 'HANA Studio', 'HANA Live', 'HANA Cloud', 'HANA Analytics', 'Which feature in SAP HANA provides pre-built views for real-time reporting and analytics?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HANA Smart Data Integration', 'SAP BW', 'SAP Fiori', 'HANA Smart Data Integration', 'HANA Data Services', 'Which SAP tool enables data integration between SAP HANA and external systems?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HANA Cloud', 'SAP Cloud', 'SAP HANA Cloud', 'SAP S/4HANA Cloud', 'SAP BW Cloud', 'Which service provides SAP HANA in a managed cloud environment for rapid deployment and scalability?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Text Analysis', 'SAP HANA Analytics', 'SAP HANA Text Analysis', 'SAP BW', 'SAP HANA Data Services', 'Which tool in SAP HANA enables the analysis and extraction of information from unstructured data like text and documents?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Data Modeling', 'SAP Fiori', 'SAP HANA Data Modeling', 'SAP BW Data Modeling', 'SAP S/4HANA Data Modeling', 'Which process involves creating and organizing views and tables in SAP HANA for reporting and analytics?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Calculation Views', 'Attribute Views', 'Calculation Views', 'Analytical Views', 'Data Warehouse Views', 'Which type of view in SAP HANA allows for complex calculations and data aggregation across multiple tables?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA', 'SAP BW', 'SAP S/4HANA', 'SAP HANA', 'SAP ERP', 'Which platform is designed to provide in-memory data processing and real-time analytics for business applications?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Studio', 'SAP HANA Web IDE', 'SAP HANA Studio', 'SAP Web Application Server', 'SAP Cloud Platform', 'Which development environment is used to create, test, and deploy SAP HANA applications?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HANA Column Store', 'Row Store', 'Hybrid Store', 'HANA Column Store', 'Data Warehouse Store', 'Which SAP HANA storage option is optimized for reading large volumes of data, often used for analytics?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP Fiori', 'SAP HANA Cloud', 'SAP Fiori', 'SAP S/4HANA', 'SAP BW', 'Which user interface framework is used for building modern and responsive applications on top of SAP HANA?', 'Easy', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Data Services', 'SAP BW', 'SAP HANA Data Services', 'SAP HANA Studio', 'SAP Gateway', 'Which tool is used to integrate, cleanse, and transform data for SAP HANA environments?', 'Easy', 'SAP - HANA');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Vora', 'SAP BW', 'SAP S/4HANA', 'SAP HANA Vora', 'SAP Cloud Platform', 'Which SAP HANA component is used to extend HANA capabilities to process big data, enabling seamless integration with Hadoop?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Attribute Views', 'Analytical Views', 'Calculation Views', 'Attribute Views', 'Graphical Views', 'Which type of view in SAP HANA is used to define and model master data for reuse in analytical views?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA XS Advanced', 'SAP HANA XS Engine', 'SAP HANA XS Advanced', 'SAP BW', 'SAP Fiori', 'Which environment is used to develop and deploy advanced applications in SAP HANA, supporting multiple programming languages like Java and Node.js?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Indexes', 'Clustered Indexes', 'Full-text Indexes', 'Columnar Indexes', 'SAP HANA Indexes', 'What type of index is used in SAP HANA to optimize data retrieval for specific queries involving frequently accessed columns?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Data Compression', 'Row-Based Compression', 'Column-Based Compression', 'Row & Column Compression', 'No Compression', 'Which type of data compression method in SAP HANA is used to reduce the storage requirements and improve query performance?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Data Lifecycle Management', 'Data Archiving', 'Data Aging', 'Data Retention', 'Data Snapshot', 'Which SAP HANA concept is used to manage data retention by moving older data to lower-cost storage while keeping active data in memory?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Extended Application Services', 'SAP HANA Cloud', 'SAP HANA XS Engine', 'SAP HANA Extended Application Services', 'SAP HANA Studio', 'Which feature of SAP HANA enables you to run both server-side JavaScript and Java applications in the SAP HANA environment?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Partitioning', 'Table Partitioning', 'Column Partitioning', 'Data Partitioning', 'Memory Partitioning', 'Which technique in SAP HANA allows large tables to be split into smaller, more manageable segments to improve performance and manageability?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Backup and Recovery', 'Data Backup', 'System Snapshot', 'SAP HANA Backup and Recovery', 'Disaster Recovery', 'Which process in SAP HANA ensures data integrity and enables restoring the system to its previous state after failure?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Data Consistency', 'Data Integrity', 'Data Consistency', 'Data Redundancy', 'Data Synchronization', 'Which concept in SAP HANA ensures that data is consistent and correctly synchronized across different tables and applications?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Smart Data Access', 'Smart Data Integration', 'Smart Data Access', 'Smart Data Replication', 'Smart Data Query', 'Which feature of SAP HANA allows data to be accessed remotely without moving or replicating it into HANA itself?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA System Replication', 'Database Replication', 'System Replication', 'Data Mirroring', 'Data Archiving', 'Which feature in SAP HANA ensures high availability by creating a real-time copy of the entire HANA system on another server?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Data Services', 'SAP BW', 'SAP Data Services', 'SAP HANA Data Services', 'SAP HANA Cloud', 'Which tool is used for the integration, cleansing, and transformation of data in SAP HANA environments?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Calculation Views', 'Graphical Views', 'Calculation Views', 'Analytical Views', 'Attribute Views', 'Which type of view in SAP HANA allows you to create complex calculations and aggregations for reporting purposes?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Multi-Tenant Database Containers', 'HANA Cloud', 'Multi-Tenant Database Containers', 'SAP S/4HANA', 'HANA Studio', 'Which feature of SAP HANA allows multiple databases to run on the same HANA instance, isolated from one another?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Data Warehouse Cloud', 'SAP BW', 'SAP HANA Data Warehouse Cloud', 'SAP Cloud Platform', 'SAP S/4HANA Cloud', 'Which solution integrates SAP HANA with a cloud-based data warehouse for centralized analytics and data management?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Web IDE', 'SAP Web IDE', 'SAP HANA Web IDE', 'SAP Fiori', 'SAP HANA Studio', 'Which tool is used to build, deploy, and manage SAP HANA applications through a web-based integrated development environment?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Cockpit', 'SAP HANA Studio', 'SAP HANA Cockpit', 'SAP Fiori', 'SAP Web IDE', 'Which tool is used for monitoring, administering, and managing SAP HANA systems in a simplified web-based interface?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Sizing', 'Memory Sizing', 'Database Sizing', 'SAP HANA Sizing', 'Disk Sizing', 'Which process in SAP HANA involves determining the hardware configuration needed to support a given workload?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Smart Data Integration', 'SAP BW', 'Smart Data Integration', 'Smart Data Query', 'Smart Data Migration', 'Which SAP HANA feature is used to integrate data from external systems into SAP HANA in real time?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Transport Management', 'Data Replication', 'Transport Management', 'Database Migration', 'System Replication', 'Which feature in SAP HANA allows for the transfer of system configurations and objects between different HANA instances?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Trace Analysis', 'System Trace', 'SQL Trace', 'Trace Analysis', 'Performance Monitoring', 'Which tool in SAP HANA helps in diagnosing performance bottlenecks by analyzing traces generated by system activities?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Smart Data Access', 'Data Replication', 'Smart Data Access', 'Data Federated Querying', 'Smart Data Integration', 'Which feature in SAP HANA allows you to access and query external data sources without replicating the data into HANA?', 'Medium', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Monitoring', 'System Monitoring', 'SAP HANA Monitoring', 'Health Monitoring', 'Data Monitoring', 'Which SAP HANA feature helps in tracking and analyzing the performance and health of the HANA system?', 'Medium', 'SAP - HANA');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Dynamic Tiering', 'SAP HANA Cloud', 'Dynamic Tiering', 'SAP HANA Compression', 'HANA Cloud', 'Which SAP HANA feature allows for storing large amounts of cold data on cheaper storage while keeping active data in memory?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Scale-Out', 'SAP BW', 'SAP HANA Scale-Out', 'SAP Cloud Platform', 'SAP S/4HANA', 'Which configuration in SAP HANA allows a system to scale by adding additional nodes to a distributed system?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Data Tiering', 'Dynamic Data Tiering', 'Data Aging', 'Data Archiving', 'Data Storage', 'Which concept in SAP HANA helps to automatically move older data to lower-cost storage for optimized cost and performance?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Advanced Compression', 'Row Compression', 'Column Compression', 'Dictionary Compression', 'Advanced Compression', 'Which advanced compression technique in SAP HANA reduces memory usage while maintaining performance for read-heavy workloads?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Native Storage Extension (NSE)', 'Memory Extensions', 'Native Storage Extension', 'Row Store', 'Column Store', 'Which SAP HANA extension enables the use of low-cost storage media for certain types of data without compromising performance?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA System Replication', 'Data Replication', 'System Replication', 'Log Shipping', 'Data Mirroring', 'Which SAP HANA feature ensures high availability by replicating an entire system to a secondary node in real-time?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Cluster', 'Cluster Storage', 'SAP HANA Cluster', 'High Availability Cluster', 'Distributed Cluster', 'Which feature of SAP HANA allows it to operate in a clustered environment to improve performance, reliability, and scalability?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Data Consistency Model', 'Snapshot Consistency', 'Eventual Consistency', 'Strong Consistency', 'Transactional Consistency', 'What type of consistency model does SAP HANA implement to ensure that all read operations are consistent with the most recent writes?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Multi-Active Data Clustering', 'Multi-Node Clustering', 'Multi-Active Data Clustering', 'Active-Standby Clustering', 'Geo-Cluster', 'Which SAP HANA clustering configuration ensures that all nodes in the cluster can handle read and write operations simultaneously for high availability and scalability?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Performance Tuning', 'SQL Optimization', 'HANA Performance Tuning', 'Database Indexing', 'Storage Management', 'Which SAP HANA concept is focused on optimizing the speed and efficiency of data retrieval and processing to improve overall system performance?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Index Server', 'Query Server', 'Data Server', 'Index Server', 'Transaction Server', 'Which server in SAP HANA is responsible for executing SQL queries and managing the execution plan of queries for optimal performance?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Smart Data Access', 'Smart Data Integration', 'Smart Data Federation', 'Smart Data Access', 'Smart Data Replication', 'Which SAP HANA feature enables data to be queried from external sources in real-time without moving the data into SAP HANA?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Columnar Store', 'Columnar Store', 'Row Store', 'Hybrid Store', 'In-memory Store', 'What type of data storage in SAP HANA stores data in columns rather than rows, offering optimized performance for analytical queries?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Data Federation', 'Smart Data Integration', 'Data Federation', 'Database Federation', 'Smart Data Replication', 'Which SAP HANA feature allows you to access and query data from multiple heterogeneous data sources in a seamless manner?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Advanced Analytics', 'Data Mining', 'Predictive Analytics', 'Advanced Analytics', 'In-memory Analytics', 'Which feature in SAP HANA allows for advanced machine learning and predictive analytics to be performed directly on large datasets in real-time?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Vora', 'SAP BW', 'SAP S/4HANA', 'SAP HANA Vora', 'SAP Fiori', 'Which SAP HANA component extends HANA capabilities to Hadoop, allowing for the integration and processing of big data in a distributed environment?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Data Protection', 'Data Encryption', 'Data Masking', 'Data Backup', 'Data Redundancy', 'Which concept in SAP HANA ensures sensitive data is secured during storage, transmission, and processing through encryption and other protective measures?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Calculation Engine', 'SQL Engine', 'Calculation Engine', 'Query Engine', 'Execution Engine', 'Which component in SAP HANA is responsible for executing calculations and aggregations at the core of the database engine?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Memory Management', 'Memory Allocation', 'Memory Management', 'Memory Optimization', 'Database Tuning', 'Which aspect of SAP HANA ensures that memory is effectively allocated to different processes for optimal performance?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Data Replication', 'Log-Based Replication', 'Trigger-Based Replication', 'Batch Replication', 'Real-Time Replication', 'Which type of replication in SAP HANA ensures that data is transferred in real-time between systems for high availability and disaster recovery?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Landscape Management', 'System Management', 'Landscape Management', 'Cloud Management', 'Database Management', 'Which feature in SAP HANA allows administrators to manage and configure HANA system landscapes, including multiple nodes and instances?', 'Hard', 'SAP - HANA');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Data Aging', 'Hot Data', 'Cold Data', 'Data Aging', 'Data Tiering', 'Which SAP HANA feature enables you to move data from high-performance memory to lower-cost storage based on access frequency?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Mixed Workload Optimization', 'Transaction Workload', 'Analytics Workload', 'Mixed Workload Optimization', 'Predictive Workload', 'Which feature in SAP HANA helps optimize both transactional and analytical workloads on the same system, leveraging in-memory capabilities?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Encryption at Rest', 'Data Encryption', 'Data Masking', 'Encryption at Rest', 'Backup Encryption', 'Which type of encryption in SAP HANA ensures that data is encrypted while it is stored on disk, protecting it from unauthorized access?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP HANA Cloud Platform', 'SAP Cloud Platform', 'SAP HANA Cloud', 'SAP S/4HANA Cloud', 'SAP BW Cloud', 'Which platform provides a cloud-based version of SAP HANA that allows you to deploy, scale, and manage HANA databases on cloud infrastructures?', 'Hard', 'SAP - HANA');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Signavio Process Manager', 'Signavio Collaboration Hub', 'Signavio Process Manager', 'SAP Process Management', 'SAP Signavio Workflow', 'Which tool in SAP Signavio is used to design, model, and document business processes?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Business Process Model and Notation (BPMN)', 'UML', 'BPMN', 'Flowchart', 'ERD', 'Which standard notation is used in SAP Signavio for modeling business processes?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Signavio Collaboration Hub', 'SAP Cloud Platform', 'SAP Process Hub', 'Signavio Collaboration Hub', 'SAP Signavio Cloud', 'Which SAP Signavio feature provides a platform for teams to collaborate on business process management and improvement?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Business Process Improvement', 'Data Analytics', 'Business Process Improvement', 'Business Intelligence', 'Automation', 'What is the primary goal of using SAP Signavio in an organization?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Signavio Process Governance', 'Process Monitoring', 'Process Governance', 'Data Integration', 'Cloud Data Storage', 'Which SAP Signavio feature helps manage process compliance, risks, and audits?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Process Mining', 'Data Analytics', 'Process Mining', 'Process Automation', 'Process Governance', 'Which SAP Signavio feature analyzes business process data to uncover inefficiencies and areas for improvement?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Signavio Workflow', 'Process Mapping', 'Process Automation', 'Signavio Workflow', 'Process Optimization', 'Which feature of SAP Signavio is used to automate tasks within a business process flow?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP Signavio Process Intelligence', 'Business Process Improvement', 'Process Intelligence', 'Business Intelligence', 'Cloud Data Insights', 'Which SAP Signavio feature enables organizations to monitor, analyze, and optimize their business processes using real-time data?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Process Mapping', 'Data Analysis', 'Process Mapping', 'Data Management', 'Business Process Improvement', 'Which SAP Signavio feature allows organizations to visually represent their business processes for better understanding and communication?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Signavio Business Transformation Suite', 'SAP Process Suite', 'SAP HANA Suite', 'Signavio Business Transformation Suite', 'SAP S/4HANA', 'Which suite in SAP Signavio enables businesses to optimize and transform their processes, integrating tools for process management, governance, and improvement?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Signavio Process Governance', 'Process Mining', 'Process Governance', 'Process Mapping', 'Process Optimization', 'Which feature of SAP Signavio focuses on ensuring compliance and monitoring risks within business processes?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP Signavio Cloud', 'SAP S/4HANA Cloud', 'SAP Signavio Cloud', 'SAP Business ByDesign', 'SAP SuccessFactors', 'Which cloud-based solution from SAP enables businesses to manage and optimize their processes using SAP Signavio?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Collaboration and Sharing', 'Data Insights', 'Collaboration and Sharing', 'Process Mining', 'Workflow Management', 'Which feature of SAP Signavio facilitates collaboration and sharing of business process models within teams and stakeholders?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Signavio Process Manager', 'Process Governance', 'Process Mapping', 'Signavio Process Manager', 'Cloud Integration', 'Which SAP Signavio product allows users to design, document, and analyze business processes?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Signavio Process Models', 'Business Process Models', 'Process Workflow', 'Signavio Process Models', 'Data Analytics Models', 'What type of models does SAP Signavio use to represent business processes visually?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Business Process Optimization', 'Data Management', 'Business Process Optimization', 'Process Mining', 'Workflow Management', 'What is the primary goal of business process optimization in SAP Signavio?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Process Improvement Tools', 'Collaboration Hub', 'Process Improvement Tools', 'Signavio Process Manager', 'Data Analytics Tools', 'Which feature of SAP Signavio helps businesses identify and implement improvements within their existing processes?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Business Process Insights', 'Data Analytics', 'Business Intelligence', 'Business Process Insights', 'Process Modeling', 'Which SAP Signavio feature provides organizations with detailed insights and reports on the performance of their business processes?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP Signavio Process Analytics', 'Signavio Process Manager', 'SAP Signavio Process Analytics', 'Business Intelligence Analytics', 'SAP Analytics Cloud', 'Which SAP Signavio feature is designed to analyze and improve business process performance using data-driven insights?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Process Efficiency', 'Process Automation', 'Process Monitoring', 'Process Efficiency', 'Process Collaboration', 'Which goal does SAP Signavio focus on achieving by optimizing business processes?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Process Change Management', 'Data Insights', 'Process Change Management', 'Business Process Monitoring', 'Process Governance', 'Which SAP Signavio feature helps track and manage changes to business processes and their impact on the organization?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('SAP Signavio Integration', 'SAP Process Integration', 'SAP Signavio Integration', 'Business Process Integration', 'SAP Cloud Integration', 'Which feature of SAP Signavio allows integration with other SAP solutions for seamless process management?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Process Compliance', 'Data Analytics', 'Process Compliance', 'Process Governance', 'Process Modeling', 'Which feature in SAP Signavio ensures that business processes follow industry standards and regulatory requirements?', 'Easy', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Collaboration Features', 'Data Sharing', 'Business Process Optimization', 'Collaboration Features', 'Cloud Integration', 'Which feature of SAP Signavio improves teamwork and communication on process management within organizations?', 'Easy', 'SAP - Signavio');
+
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Process Mining', 'Business Process Mapping', 'Data Analytics', 'Process Mining', 'Process Automation', 'Which SAP Signavio tool provides a deeper analysis of business processes using event logs and historical data?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Value Stream Mapping', 'Business Process Modeling', 'Value Stream Mapping', 'SWOT Analysis', 'Risk Analysis', 'Which technique is used in SAP Signavio to analyze the flow of materials and information in a business process?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Signavio Process Governance', 'Signavio Process Manager', 'Signavio Process Governance', 'Signavio Collaboration Hub', 'SAP Process Intelligence', 'Which Signavio feature ensures that business processes are compliant with legal and regulatory standards?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Process Simulation', 'Data Analytics', 'Process Simulation', 'Workflow Optimization', 'Data Mining', 'Which feature in SAP Signavio allows businesses to simulate different process scenarios before implementation?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Signavio Process Collaboration Hub', 'Process Optimization Hub', 'Signavio Collaboration Hub', 'SAP Business Process Management Hub', 'Process Monitoring Hub', 'Which tool in SAP Signavio enables cross-functional collaboration and feedback within business process management projects?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Process Automation and Integration', 'Business Process Optimization', 'Process Automation and Integration', 'Process Governance', 'Process Monitoring', 'What feature in SAP Signavio allows automation and integration of processes across multiple systems within an organization?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Signavio Advanced Analytics', 'Process Mapping', 'Process Automation', 'Signavio Advanced Analytics', 'Data Optimization', 'Which tool in SAP Signavio enables organizations to analyze their business processes in greater detail using advanced analytical methods?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('End-to-End Process Visibility', 'Business Process Optimization', 'End-to-End Process Visibility', 'Data Transparency', 'Cross-Functional Collaboration', 'Which feature in SAP Signavio provides full visibility into end-to-end business processes?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Collaborative Process Modeling', 'Document Collaboration', 'Collaborative Process Modeling', 'Process Governance', 'Data Analysis', 'Which functionality of SAP Signavio allows multiple stakeholders to contribute to the creation and refinement of process models?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Process Performance Metrics', 'Data Quality Metrics', 'Process Performance Metrics', 'Risk Assessment Metrics', 'Business Value Metrics', 'Which set of metrics in SAP Signavio is used to evaluate the efficiency and success of business processes?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Change Impact Analysis', 'Process Mapping', 'Change Impact Analysis', 'Business Process Automation', 'Process Redesign', 'Which SAP Signavio feature helps analyze the effects of changes made to business processes on the entire organization?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Process Compliance Management', 'Process Risk Management', 'Process Compliance Management', 'Process Efficiency', 'Process Automation', 'Which SAP Signavio feature ensures that processes adhere to industry standards, legal requirements, and internal policies?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Business Process Design', 'Process Governance', 'Business Process Design', 'Process Automation', 'Process Collaboration', 'Which SAP Signavio feature helps in designing, visualizing, and documenting business processes for better management?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Real-Time Process Monitoring', 'Business Intelligence', 'Process Mining', 'Real-Time Process Monitoring', 'Process Documentation', 'Which SAP Signavio feature provides real-time monitoring and alerts for ongoing business processes to ensure they stay on track?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Process Governance and Compliance', 'Business Process Collaboration', 'Process Governance and Compliance', 'Process Efficiency', 'Business Process Design', 'Which feature of SAP Signavio helps track compliance with governance and regulatory standards across business processes?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('SAP Signavio Process Analytics', 'Business Analytics', 'Process Analytics', 'SAP Signavio Process Analytics', 'Cloud Analytics', 'Which module in SAP Signavio allows organizations to assess and optimize their business process performance based on data analysis?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Process Redesign', 'Process Mapping', 'Process Redesign', 'Process Optimization', 'Process Automation', 'Which activity in SAP Signavio involves reworking or redesigning business processes to improve efficiency and performance?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Process Improvement', 'Data Mining', 'Process Improvement', 'Business Process Modeling', 'Process Optimization', 'What is the primary focus of process improvement in SAP Signavio?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Risk Management in Process Governance', 'Process Automation', 'Risk Management in Process Governance', 'Process Design', 'Process Optimization', 'Which feature of SAP Signavio helps identify, assess, and mitigate risks within business processes?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Business Process Collaboration', 'Data Analytics', 'Process Automation', 'Business Process Collaboration', 'Process Monitoring', 'Which SAP Signavio feature facilitates real-time communication and collaboration among stakeholders during business process development and execution?', 'Medium', 'SAP - Signavio');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+VALUES ('Process Risk Assessment', 'Process Design', 'Process Risk Assessment', 'Process Mapping', 'Process Efficiency', 'Which functionality in SAP Signavio is used to evaluate potential risks associated with business processes?', 'Medium', 'SAP - Signavio');
+
