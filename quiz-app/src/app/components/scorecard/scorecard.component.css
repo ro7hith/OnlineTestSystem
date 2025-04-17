@@ -1,0 +1,39 @@
+.scorecard-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffffcc; /* semi-transparent white */
+  border-radius: 12px;
+  box-shadow: 0 0 20px 4px #F5E9E4; /* soft glow */
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.scorecard-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.scorecard-container p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}

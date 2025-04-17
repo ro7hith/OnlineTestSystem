@@ -1,0 +1,150 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #cee2ed;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: visible; 
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-family: 'Calibri', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.user-role {
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+
+.logout-btn {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.logout-btn:hover {
+  background-color: #c92a37;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.dropdown-wrapper {
+  position: relative;
+}
+
+.user-dropdown-toggle {
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 5px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #fff;
+}
+
+.user-dropdown-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 120%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 180px;
+  z-index: 9999;
+  display: block;
+  visibility: visible;
+}
+
+.dropdown-menu li {
+  padding: 12px 20px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-menu li:last-child {
+  border-bottom: none;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f4f4f4;
+}
+
+.qz {
+  font-size: 2.8rem;
+  animation: fontCycle 6s infinite ease-in-out;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+ 
+.q1 { color: #3a6ce1; }
+.q2 { color: #DB4437; }
+.q3 { color: #F4B400; }
+.q4 { color: #0F9D58; }
+.q5 { color: #c31313; }
+ 
+.qz:hover {
+  transform: scale(1.2) rotate(-5deg);
+}
+ 
+
+@keyframes fontCycle {
+  0%   { font-family: 'Comic Neue', cursive; }
+  25%  { font-family: 'Baloo 2', cursive; }
+  50%  { font-family: 'Fredoka One', cursive; }
+  75%  { font-family: 'Poppins', sans-serif; font-weight: 700; }
+  100% { font-family: 'Comic Neue', cursive; }
+}

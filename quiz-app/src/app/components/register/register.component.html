@@ -1,0 +1,105 @@
+<div class="register-wrapper d-flex justify-content-center align-items-center">
+  <div class="register-container-shadow"
+    style="background-color: #ffffffcc; padding: 40px 30px; border-radius: 12px; box-shadow: 0 0 20px 4px #F5E9E4; width: 100%; max-width: 450px; text-align: center;">
+    <h2 class="mb-4">REGISTER NOW</h2>
+
+    <form (submit)="registerUser($event)">
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Enter your name"
+          [(ngModel)]="user.name"
+          name="name"
+          required
+        />
+      </div>
+
+      <div class="mb-3">
+        <input
+          type="email"
+          class="form-control"
+          placeholder="Enter your email"
+          [(ngModel)]="user.email"
+          name="email"
+          required
+        />
+      </div>
+
+      <div class="mb-3">
+        <input
+          type="password"
+          class="form-control"
+          placeholder="Enter your password"
+          [(ngModel)]="user.password"
+          name="password"
+          required
+        />
+      </div>
+
+      <div class="mb-3">
+        <input
+          type="password"
+          class="form-control"
+          placeholder="Confirm your password"
+          [(ngModel)]="user.confirmPassword"
+          name="confirmPassword"
+          required
+        />
+      </div>
+
+      <!-- Security Question 1 -->
+      <div class="mb-3 text-start">
+        <label class="form-label">Security Question 1</label>
+        <select class="form-select"
+                name="question1"
+                [(ngModel)]="user.securityQuestion1"
+                required>
+          <option [ngValue]="undefined" disabled>Select your first question</option>
+          <option *ngFor="let q of questions" [ngValue]="q">{{ q }}</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Answer 1"
+          [(ngModel)]="user.answer1"
+          name="answer1"
+          required
+        />
+      </div>
+
+      <!-- Security Question 2 -->
+      <div class="mb-3 text-start">
+        <label class="form-label">Security Question 2</label>
+        <select class="form-select"
+                name="question2"
+                [(ngModel)]="user.securityQuestion2"
+                required>
+          <option [ngValue]="undefined" disabled>Select your second question</option>
+          <option *ngFor="let q of questions" [ngValue]="q">{{ q }}</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Answer 2"
+          [(ngModel)]="user.answer2"
+          name="answer2"
+          required
+        />
+      </div>
+
+      <button type="submit" class="btn btn-success w-100 mt-2">Register Now</button>
+    </form>
+
+    <p class="mt-4 mb-0">
+      Already have an account?
+      <a href="/login" class="text-primary fw-bold">Login now</a>
+    </p>
+  </div>
+</div>

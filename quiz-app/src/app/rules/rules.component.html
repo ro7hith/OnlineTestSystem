@@ -1,0 +1,48 @@
+<div class="rules-container">
+    <h2>Rules & Regulations for the Online Quiz</h2>
+  
+    <ol>
+      <li><strong>Quiz Format:</strong> Each question contains multiple-options based on the selected technology or topic.</li>
+      <li><strong>Time Limits:</strong>
+        <ul>
+          <li>5 Questions – <strong>5 minutes</strong></li>
+          <li>10 Questions – <strong>10 minutes</strong></li>
+          <li>15 Questions – <strong>15 minutes</strong></li>
+        </ul>
+      </li>
+      <li><strong>Automatic Submission:</strong> The quiz will be auto-submitted when time runs out.</li>
+      <li><strong>Single Attempt:</strong> Each question can only be attempted once.</li>
+      <li><strong>No Negative Marking:</strong> There is no penalty for wrong answers.</li>
+      <li><strong>Stable Internet:</strong> Ensure a stable internet connection throughout the quiz.</li>
+      <li><strong>Cheating Policy:</strong> Unfair means will lead to disqualification.</li>
+      <li><strong>Note:</strong> This is a practice test, so keep it clean by not cheating.</li>
+      <li><strong>Results:</strong> Results and analysis will be shown after quiz submission.</li>
+    </ol>
+  
+    <p class="text-center mt-4">
+    By starting the quiz, you agree to abide by these rules.
+    </p>
+  
+    <div class="form-check checkbox-wrapper mt-4">
+      <input
+        type="checkbox"
+        class="form-check-input custom-checkbox"
+        id="agreeRules"
+        [(ngModel)]="agreed"
+        name="agreeRules"
+      >
+      <label class="form-check-label" for="agreeRules">
+        I agree to the rules and regulations.
+      </label>
+    </div>
+  
+    <div class="text-center mt-4">
+      <button
+        class="btn btn-success px-4 py-2"
+        [disabled]="!agreed"
+        (click)="proceedToQuiz()">
+        I Agree, Start Quiz
+      </button>
+    </div>
+  </div>
+  

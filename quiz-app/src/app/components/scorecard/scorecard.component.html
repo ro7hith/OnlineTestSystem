@@ -1,0 +1,15 @@
+<div class="scorecard-container">
+  <h2>Quiz Scorecard</h2>
+
+  <div *ngIf="userScore && scoreStats; else loading">
+    <p><strong>Your Score:</strong> {{ userScore }}</p>
+    <p><strong>Quiz Stats</strong></p>
+    <p [innerHTML]="scoreStats"></p>
+  </div>
+
+  <ng-template #loading>
+    <p>Loading your results...</p>
+  </ng-template>
+
+  <button (click)="showResults()">Show Results</button>
+</div>

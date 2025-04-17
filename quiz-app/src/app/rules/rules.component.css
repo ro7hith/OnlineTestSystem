@@ -1,0 +1,56 @@
+.rules-container {
+    max-width: 750px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffffcc;
+    border-radius: 12px;
+    box-shadow: 0 0 20px 4px #F5E9E4;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  
+  .rules-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .rules-container ol {
+    padding-left: 20px;
+  }
+  
+  .rules-container li {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .rules-container ul {
+    list-style-type: disc;
+    margin-top: 8px;
+    padding-left: 20px;
+  }
+  
+ 
+  .checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .custom-checkbox {
+    width: 20px;
+    height: 20px;
+    accent-color: #0f1318;
+    border: 2px solid #007bff;
+    background-color: rgb(113, 26, 234);
+    cursor: pointer;
+  }
+  
+  .form-check-label {
+    font-size: 15px;
+    color: #222;
+    cursor: pointer;
+  }
+  

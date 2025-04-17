@@ -1,0 +1,83 @@
+.homepage-container {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .sidebar {
+    position: sticky;
+    top: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #55496f;
+    padding: 20px;
+    color: white;
+  }
+  
+  .sidebar-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 15px;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .sidebar a:hover {
+    color: #ffd700;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 40px;
+    text-align: justify;
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    margin-bottom: 80px;
+    background-color: #ffffffcc;
+    padding: 30px;
+    text-align: justify;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .go-to-quiz-setup {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 40px;
+  }
+  
+  .go-to-quiz-setup button {
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+  
+  
+  

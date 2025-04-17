@@ -1,0 +1,68 @@
+/* Wrapper with full height background */
+.register-wrapper {
+  min-height: 100vh;
+  background-image: url('assets/images/Image2.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Centered, shadowed container */
+.register-container-shadow{
+  background-color: #ffffffcc; /* semi-transparent white */
+  padding: 40px 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  box-shadow: 0 0 20px 4px #F5E9E4;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.form-control {
+  padding: 12px 16px;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.form-control:focus {
+  border-color: #00b09b;
+  box-shadow: 0 0 8px #F5E9E4;
+}
+
+/* Submit Button */
+.btn-success {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Footer text */
+p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

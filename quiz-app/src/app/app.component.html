@@ -1,0 +1,35 @@
+<nav class="navbar" *ngIf="isLoggedIn">
+  <div class="navbar-left">
+    <div class="navbar-brand">
+      <span class="qz q1">Q</span>
+      <span class="qz q2">U</span>
+      <span class="qz q3">I</span>
+      <span class="qz q4">Z</span>
+      <span class="qz q1">Z</span>
+      <span class="qz q2">I</span>
+      <span class="qz q3">L</span>
+      <span class="qz q4">L</span>
+      <span class="qz q5">A</span>
+      </div>
+  </div>
+
+  <div class="navbar-right">
+    <div class="dropdown-wrapper" *ngIf="!isAuthPage()">
+      <div class="user-dropdown-toggle" (click)="toggleDropdown()">
+        👤 {{ userRole | titlecase }}
+      </div>
+      <ul class="dropdown-menu" *ngIf="dropdownVisible">
+        <li (click)="navigateHome()">Navigate Home</li>
+        <li (click)="changePassword()">Change Password</li>
+      </ul>
+    </div>
+    <button class="logout-btn" *ngIf="!isAuthPage()" (click)="logout()">
+      Logout
+    </button>
+  </div>
+</nav>
+
+
+<main class="main-content">
+  <router-outlet></router-outlet>
+</main>

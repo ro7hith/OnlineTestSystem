@@ -1,0 +1,47 @@
+<div *ngIf="questions.length > 0">
+  <div class="quiz-timer">
+    Time Remaining: {{ timerMinutes }}:{{ timerSeconds < 10 ? '0' + timerSeconds : timerSeconds }}
+  </div>
+
+  <div class="question-box"> 
+
+    <div class="question">
+      <h2><strong>Question {{ currentQuestionIndex + 1 }}: {{ questions[currentQuestionIndex]?.question }}</strong></h2>
+
+      <div class="options">
+        <label>
+          <input type="radio" 
+                 [(ngModel)]="selectedAnswers[questions[currentQuestionIndex].questionId]" 
+                 (change)="setAnswer(questions[currentQuestionIndex].questionId, 'A')" 
+                 value="A" /> <strong>a. {{ questions[currentQuestionIndex]?.optionA }}</strong>
+        </label><br>
+
+        <label>
+          <input type="radio" 
+                 [(ngModel)]="selectedAnswers[questions[currentQuestionIndex].questionId]" 
+                 (change)="setAnswer(questions[currentQuestionIndex].questionId, 'B')" 
+                 value="B" /><strong>b. {{ questions[currentQuestionIndex]?.optionB }}</strong>
+        </label><br>
+
+        <label>
+          <input type="radio" 
+                 [(ngModel)]="selectedAnswers[questions[currentQuestionIndex].questionId]" 
+                 (change)="setAnswer(questions[currentQuestionIndex].questionId, 'C')" 
+                 value="C" /><strong>c. {{ questions[currentQuestionIndex]?.optionC }}</strong>
+        </label><br>
+
+        <label>
+          <input type="radio" 
+                 [(ngModel)]="selectedAnswers[questions[currentQuestionIndex].questionId]" 
+                 (change)="setAnswer(questions[currentQuestionIndex].questionId, 'D')" 
+                 value="D" /><strong>d. {{ questions[currentQuestionIndex]?.optionD }}</strong>
+        </label>
+      </div>
+      <div class="buttons">
+        <button (click)="onNext()" *ngIf="!isLastQuestion" class="btn btn-primary">Next</button>
+        <button (click)="onSubmit()" *ngIf="isLastQuestion" class="btn btn-success">Submit</button>
+      </div>
+    </div>
+
+  </div>
+</div>

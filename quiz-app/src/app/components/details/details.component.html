@@ -1,0 +1,47 @@
+<h2 style="text-align: center;">Assessment Details for ID: {{ assessmentId }}</h2>
+
+<div *ngFor="let detail of assessmentDetails; let i = index" class="question-card">
+  <h3>Q{{ i + 1 }}. {{ detail.question }}</h3>
+
+  <div class="options">
+    <label [ngClass]="getOptionClass(detail, detail.optionA)">
+      <input type="radio" name="question{{ i }}" [checked]="detail.selectedOption === detail.optionA" disabled>
+      <strong>A. </strong> {{ detail.optionA }}
+    </label>
+
+    <label [ngClass]="getOptionClass(detail, detail.optionB)">
+      <input type="radio" name="question{{ i }}" [checked]="detail.selectedOption === detail.optionB" disabled>
+      <strong>B. </strong> {{ detail.optionB }}
+    </label>
+
+    <label [ngClass]="getOptionClass(detail, detail.optionC)">
+      <input type="radio" name="question{{ i }}" [checked]="detail.selectedOption === detail.optionC" disabled>
+      <strong>C. </strong> {{ detail.optionC }}
+    </label>
+
+    <label [ngClass]="getOptionClass(detail, detail.optionD)">
+      <input type="radio" name="question{{ i }}" [checked]="detail.selectedOption === detail.optionD" disabled>
+      <strong>D. </strong> {{ detail.optionD }}
+    </label>
+  </div>
+
+  <div class="correct-answer">
+    <strong>Correct Answer:</strong> {{ getCorrectAnswerLabel(detail) }}. {{ detail.correctAnswer }}
+  </div>
+
+  <div *ngIf="detail.selectedOption !== detail.correctAnswer" class="deep-dive mt-2">
+    <span><strong>Deep dive into concept?</strong></span>
+    <a
+      class="text-primary"
+      href="https://chat.openai.com/"
+      target="_blank"
+      style="margin-left: 8px;"
+    >
+      Ask ChatGPT →
+    </a>
+  </div>
+</div>
+
+<div class="button-container">
+  <button (click)="retakeQuiz()">Retake Quiz</button>
+</div>

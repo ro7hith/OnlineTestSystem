@@ -1,0 +1,46 @@
+<div class="login-wrapper" style="min-height: 100vh; display: flex; justify-content: center; align-items: center; padding: 20px;">
+  <div class="login-container" style="background-color: #ffffffcc; padding: 40px 30px; border-radius: 12px; box-shadow: 0 0 20px 4px #F5E9E4; width: 100%; max-width: 450px; text-align: center;">
+    <h2 class="mb-4">Sign In</h2>
+    <form (submit)="loginUser($event)">
+      <div class="mb-3">
+        <input
+          type="email"
+          class="form-control"
+          style="width: 18rem; margin: 0 auto;" 
+          placeholder="Email"
+          [(ngModel)]="user.email"
+          name="email"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <input
+          type="password"
+          class="form-control"
+          style="width: 18rem; margin: 0 auto;" 
+          placeholder="Password"
+          [(ngModel)]="user.password"
+          name="password"
+          required
+        />
+      </div>
+      <div class="mb-3 text-center">
+        <button
+          class="btn btn-dark"
+          style="width: 18rem; padding: 10px 0; font-size: 16px;"
+          type="submit"
+        >
+          Sign In
+        </button>
+      </div>
+      <p class="mt-2">
+        <a href="/forgot-password" class="text-primary fw-bold">Forgot Password?</a>
+      </p>
+      
+    </form>
+    <p class="mt-3">
+      Not a member?
+      <a href="/register" class="text-primary fw-bold">Sign up now</a>
+    </p>
+  </div>
+</div>

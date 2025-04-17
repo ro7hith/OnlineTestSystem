@@ -1,0 +1,13 @@
+<!-- <div class="score-container">
+  <h2>Congratulations!</h2>
+  <p *ngIf="userScore">Your score: {{ userScore }}</p>
+  <p *ngIf="scoreStats">{{ scoreStats }}</p>
+  <p>Do you want to display your score details?</p>
+  <button (click)="viewScorecard()">OK</button>
+</div> -->
+<div class="scorecard-container">
+  <h2>Quiz Scorecard</h2>
+  <p><strong>Your Score:</strong> {{ userScore }}</p>
+  <p><strong>Quiz Stats:</strong> {{ scoreStats }}</p>
+  <button (click)="retakeQuiz()">Retake Quiz</button>
+</div>
