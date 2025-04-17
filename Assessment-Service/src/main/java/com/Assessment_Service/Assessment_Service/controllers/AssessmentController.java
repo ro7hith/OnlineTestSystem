@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.Assessment_Service.Assessment_Service.dtos.AssessmentDetailsDto;
 import com.Assessment_Service.Assessment_Service.dtos.AssessmentRequest;
 import com.Assessment_Service.Assessment_Service.dtos.AssessmentResponse;
+import com.Assessment_Service.Assessment_Service.dtos.UserTopicAverageDto;
 import com.Assessment_Service.Assessment_Service.models.Dao.Services.AssessmentServices;
 
 @RestController
@@ -40,7 +41,7 @@ public class AssessmentController {
 	}
 	
 	@GetMapping("/getScores/{assessmentId}")
-	public ResponseEntity<Map<String, Object>> getScores(@PathVariable int assessmentId) {
+	public ResponseEntity<Map<String, Object>> getScores(@PathVariable("assessmentId") int assessmentId) {
 	    String score = assessServices.getScores(assessmentId);
 	    Map<String, Object> response = new HashMap<>();
 	    response.put("assessmentId", assessmentId);
@@ -49,7 +50,7 @@ public class AssessmentController {
 	}
 	
 	@GetMapping("/getStats/{assessmentId}")
-	public ResponseEntity<Map<String, Object>> getStats(@PathVariable int assessmentId) {
+	public ResponseEntity<Map<String, Object>> getStats(@PathVariable("assessmentId") int assessmentId) {
 	    String stats = assessServices.getStats(assessmentId);
 	    Map<String, Object> response = new HashMap<>();
 	    response.put("assessmentId", assessmentId);
@@ -66,6 +67,12 @@ public class AssessmentController {
 		else
 			return ResponseEntity.of(Optional.of(list));
 	}
+	
+	@GetMapping("/usertopicaverages")
+	public List<UserTopicAverageDto> getUserTopicAverages(@RequestParam("email") String email) {
+	    return assessServices.getUserTopicAveragesForUser(email);
+	}
+
 	
 }
 		

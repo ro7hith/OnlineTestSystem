@@ -46,4 +46,18 @@ public class AuthService {
     public String getRoleFromToken(String token) {
         return service.extractRoleFromToken(token);
     }
+    
+    public boolean changePassword(String email, String oldPassword, String newPassword) {
+        Optional<OurUsers> userOpt = userRepo.findByEmail(email);
+        if (userOpt.isPresent()) {
+            OurUsers user = userOpt.get();
+            if (passwordEncoder.matches(oldPassword, user.getPassword())) {
+                user.setPassword(passwordEncoder.encode(newPassword));
+                userRepo.save(user);
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
