@@ -1036,3 +1036,1899 @@ VALUES ('Business Process Collaboration', 'Data Analytics', 'Process Automation'
 INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
 VALUES ('Process Risk Assessment', 'Process Design', 'Process Risk Assessment', 'Process Mapping', 'Process Efficiency', 'Which functionality in SAP Signavio is used to evaluate potential risks associated with business processes?', 'Medium', 'SAP - Signavio');
 
+
+
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ArrayList', 'HashSet', 'ArrayList', 'LinkedList', 'TreeSet', 'Which class allows dynamic resizing of arrays and can store duplicate elements in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Iterator', 'Cursor', 'Iterator', 'Enumeration', 'ListIterator', 'Which interface allows iteration over a collection in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('PriorityQueue', 'ArrayList', 'LinkedList', 'PriorityQueue', 'HashMap', 'Which collection class stores elements in a priority order in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('default', 'public', 'private', 'protected', 'default', 'Which access modifier is used when no modifier is specified in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('synchronized', 'final', 'volatile', 'synchronized', 'static', 'Which keyword is used to make methods or blocks thread-safe in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('volatile', 'final', 'volatile', 'transient', 'static', 'Which keyword ensures that a variable is updated consistently across all threads in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('char', 'Character', 'char', 'byte', 'short', 'Which primitive data type is used to store a single character in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('StringBuilder', 'StringBuffer', 'StringBuilder', 'String', 'StringBuilder', 'Which class is used for building strings efficiently and is mutable in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Thread.sleep(0)', 'Thread.pause()', 'Thread.sleep()', 'Thread.wait()', 'Thread.interrupt()', 'Which method can be used to pause a thread for a minimal time (effectively allowing other threads to execute) in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('InterruptedException', 'IOException', 'InterruptedException', 'RuntimeException', 'Exception', 'Which exception is thrown if a thread is interrupted while it is waiting or sleeping in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('java.util.concurrent', 'java.util.stream', 'java.util.concurrent', 'java.util', 'java.io', 'Which package provides utilities for working with concurrency and synchronization in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Exception', 'Error', 'Exception', 'Throwable', 'Throwable', 'Which class is the parent class of all exceptions in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ArrayIndexOutOfBoundsException', 'NullPointerException', 'ArrayIndexOutOfBoundsException', 'ClassCastException', 'IllegalArgumentException', 'Which exception is thrown when accessing an invalid index in an array in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('assert', 'verify', 'assert', 'check', 'validate', 'Which keyword is used for assertions to test assumptions in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('static', 'final', 'static', 'public', 'private', 'Which keyword is used to define a class-level variable in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('final', 'static', 'final', 'const', 'immutable', 'Which keyword is used to define a constant in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ArrayList', 'LinkedList', 'ArrayList', 'HashSet', 'TreeSet', 'Which class is used for a dynamic array in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('LinkedList', 'LinkedHashMap', 'HashMap', 'LinkedList', 'TreeMap', 'Which class is used to implement a doubly linked list in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('hashCode()', 'getCode()', 'hashCode()', 'getHash()', 'generateHash()', 'Which method is used to generate a hash code for an object in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('equals()', 'compare()', 'equals()', 'isEqual()', 'isSame()', 'Which method is used to compare two objects for equality in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('super()', 'this()', 'super()', 'self()', 'base()', 'Which constructor is used to call the parent class constructor in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('abstract', 'interface', 'abstract', 'final', 'public', 'Which keyword is used to define a class that cannot be instantiated in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('instanceof', 'instanceof', 'typeOf', 'isInstance', 'checkType', 'Which operator is used to check the type of an object in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('StringBuilder', 'StringBuffer', 'StringBuilder', 'String', 'StringUtil', 'Which class is used for creating mutable strings in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('toString()', 'toString()', 'toCharArray()', 'stringify()', 'getString()', 'Which method is used to convert an object to a string in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('finally', 'finally', 'except', 'catch', 'complete', 'Which block is executed after try-catch in Java, regardless of exception occurrence?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('yield', 'break', 'continue', 'yield', 'exit', 'Which keyword is used to pause the execution of a thread and return a value in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Thread.sleep()', 'wait()', 'sleep()', 'pause()', 'stop()', 'Which method is used to pause the execution of a thread for a specified time in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('HashMap', 'TreeMap', 'HashMap', 'Hashtable', 'LinkedHashMap', 'Which class stores key-value pairs in Java and allows fast lookups?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ConcurrentHashMap', 'Hashtable', 'HashMap', 'ConcurrentHashMap', 'WeakHashMap', 'Which class is used for thread-safe collections in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Vector', 'ArrayList', 'LinkedList', 'Vector', 'ArrayDeque', 'Which class is used for a dynamically resizable array that is thread-safe in Java?', 'Medium', 'Java');
+ 
+
+
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Vector', 'ArrayList', 'LinkedList', 'Vector', 'ArrayDeque', 'Which class is used for a dynamically resizable array that is thread-safe in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Iterator', 'Enumeration', 'Iterator', 'ListIterator', 'Cursor', 'Which interface is used to iterate over a collection in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ListIterator', 'Iterator', 'ListIterator', 'CollectionIterator', 'QueueIterator', 'Which interface allows bidirectional iteration over a list in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('remove()', 'delete()', 'remove()', 'discard()', 'erase()', 'Which method is used to remove an element from a collection in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('sort()', 'order()', 'arrange()', 'sort()', 'sequence()', 'Which method is used to sort a list in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('merge()', 'combine()', 'merge()', 'addAll()', 'join()', 'Which method is used to combine two collections in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Collections.sort()', 'Collections.order()', 'Collections.sort()', 'ArrayList.sort()', 'List.sort()', 'Which method is used to sort a collection in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('compareTo()', 'compare()', 'compareTo()', 'equals()', 'isEqual()', 'Which method is used to compare two objects in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('clone()', 'duplicate()', 'clone()', 'copy()', 'replicate()', 'Which method is used to create a copy of an object in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('substring()', 'slice()', 'substring()', 'substr()', 'cut()', 'Which method is used to extract a part of a string in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('StringTokenizer', 'split()', 'StringTokenizer', 'StringSplitter', 'Tokenize()', 'Which class is used to break a string into tokens in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Collections.reverse()', 'reverse()', 'reverseOrder()', 'Collections.reverse()', 'ArrayList.reverse()', 'Which method is used to reverse the order of elements in a collection in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('split()', 'divide()', 'split()', 'cut()', 'tokenize()', 'Which method is used to split a string into an array in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('toCharArray()', 'getChars()', 'toCharArray()', 'convertToChar()', 'toCharacter()', 'Which method is used to convert a string to a character array in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('equalsIgnoreCase()', 'equals()', 'equalsIgnoreCase()', 'compareTo()', 'compare()', 'Which method is used to compare two strings ignoring case in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Thread.interrupt()', 'Thread.stop()', 'Thread.interrupt()', 'Thread.halt()', 'Thread.terminate()', 'Which method is used to interrupt a thread in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('wait()', 'sleep()', 'wait()', 'pause()', 'stop()', 'Which method is used to pause a thread until notified in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Thread.currentThread()', 'Thread.getThread()', 'Thread.currentThread()', 'Thread.this()', 'Thread.current()', 'Which method is used to get the current executing thread in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Thread.yield()', 'Thread.pause()', 'Thread.stop()', 'Thread.yield()', 'Thread.halt()', 'Which method is used to temporarily pause the current thread in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('join()', 'wait()', 'join()', 'sleep()', 'suspend()', 'Which method is used to wait for a thread to finish execution in Java?', 'Medium', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ArrayList', 'List', 'ArrayList', 'ListArray', 'ArrayListString', 'Which class is used to create dynamic arrays in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('List', 'ArrayList', 'List', 'Vector', 'ArrayList', 'Which interface does ArrayList implement in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Map', 'Set', 'Queue', 'Map', 'HashSet', 'Which collection type stores key-value pairs in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('HashMap', 'HashTable', 'HashMap', 'MapHash', 'KeyMap', 'Which class is used to store key-value pairs with fast lookup in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('charAt()', 'getChar()', 'charAt()', 'charOf()', 'getCharAt()', 'Which method is used to retrieve a character at a specific index in a string?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('substring()', 'substr()', 'substring()', 'subString()', 'strSubstring()', 'Which method is used to extract a part of a string in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('length()', 'size()', 'length()', 'getLength()', 'len()', 'Which method is used to find the size of an array in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('equals()', 'compareTo()', 'equals()', 'isSame()', 'check()', 'Which method is used to compare two strings for equality in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('toString()', 'getString()', 'toString()', 'convertToString()', 'getValue()', 'Which method is used to convert an object to a string representation in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Thread', 'Runnable', 'Thread', 'Process', 'Task', 'Which class is used to create and manage threads in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('join()', 'merge()', 'combine()', 'join()', 'concat()', 'Which method is used to wait for a thread to finish in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('File', 'Document', 'File', 'TextFile', 'DataFile', 'Which class is used to work with files in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Scanner', 'Reader', 'Scanner', 'InputReader', 'ConsoleReader', 'Which class is used to read input from the user in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('BufferedReader', 'InputStream', 'BufferedReader', 'FileReader', 'InputReader', 'Which class is used to read characters efficiently from a file in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('StringBuilder', 'StringBuffer', 'StringBuilder', 'String', 'TextBuilder', 'Which class is used for creating mutable strings in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('final', 'constant', 'final', 'immutable', 'lock', 'Which keyword is used to define a constant value in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('public static final', 'final static public', 'public static final', 'static public final', 'static final public', 'Which keyword combination is used to define a constant in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('abstract', 'abstract class', 'abstract', 'empty', 'void', 'Which keyword defines a class that cannot be instantiated in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('interface', 'abstract', 'interface', 'class', 'abstract class', 'Which type defines a contract that classes can implement in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('extends', 'implements', 'extends', 'inherits', 'inherits-from', 'Which keyword is used to inherit a class in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('instanceof', 'typeOf', 'instanceof', 'checkType', 'typeIs', 'Which operator is used to check if an object is an instance of a class in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('System.out.println()', 'print()', 'write()', 'echo()', 'System.out.println()', 'Which function is used to print output to the console in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('public static void main(String[] args)', 'public void main(String[] args)', 'static void main(String[] args)', 'public static void main(String[] args)', 'public static void main(String[] args)', 'What is the correct way to define the main method in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('int', 'integer', 'int', 'number', 'long', 'Which of these is a valid data type for an integer in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('String', 'char', 'String', 'text', 'string', 'Which of these is used to store a string in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('double', 'int', 'float', 'double', 'long', 'Which of these data types is used to store decimal numbers in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('true', 'yes', 'true', 'on', '1', 'Which keyword is used for a boolean value representing "true" in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('false', 'no', 'false', 'off', '0', 'Which keyword is used for a boolean value representing "false" in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('for', 'while', 'for', 'do-while', 'each', 'Which loop structure is used for iterating over a range or collection in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('if', 'when', 'if', 'loop', 'check', 'Which statement is used to perform a conditional check in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('else', 'else-if', 'else', 'if', 'switch', 'Which statement is used as a fallback if an "if" condition is false in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('new', 'create', 'new', 'init', 'generate', 'Which keyword is used to create objects in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('import', 'include', 'import', 'use', 'load', 'Which keyword is used to include classes or packages in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('int[]', 'Array[]', 'int[]', 'list[]', 'array[]', 'What is the correct syntax for declaring an array in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('class', 'object', 'class', 'type', 'structure', 'Which keyword is used to define a class in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('public', 'private', 'public', 'protected', 'default', 'Which access modifier allows access from anywhere in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('return', 'exit', 'return', 'finish', 'end', 'Which keyword is used to exit a method and return a value in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('void', 'return', 'void', 'null', 'empty', 'Which keyword is used to specify a method does not return any value in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('null', 'undefined', 'null', 'nil', 'none', 'Which value represents the absence of a reference in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('super', 'parent', 'super', 'base', 'up', 'Which keyword is used to refer to the superclass in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('this', 'that', 'this', 'self', 'here', 'Which keyword refers to the current object in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('break', 'stop', 'exit', 'break', 'continue', 'Which keyword is used to exit a loop early in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('continue', 'next', 'repeat', 'continue', 'stop', 'Which keyword is used to skip the current iteration of a loop in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('try-catch', 'if-else', 'try-catch', 'handle-exception', 'check-error', 'Which block is used to handle exceptions in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('finally', 'finally', 'after', 'finally', 'end', 'Which block is used to ensure execution after a try-catch in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Exception', 'Error', 'Exception', 'Fail', 'Issue', 'Which class is the base class for all exceptions in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Integer', 'int', 'Integer', 'Double', 'String', 'Which class wraps the primitive data type int in Java?', 'Easy', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Math.random()', 'rand()', 'Math.random()', 'random()', 'generate()', 'Which method is used to generate a random number in Java?', 'Easy', 'Java');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ThreadLocal', 'Thread', 'ThreadLocal', 'Runnable', 'Executor', 'Which class in Java provides thread-local variables?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ReentrantLock', 'Synchronized', 'ReentrantLock', 'Mutex', 'Semaphore', 'Which class is used for explicit locking in Java and provides advanced lock features?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('CompletableFuture', 'Future', 'CompletableFuture', 'ExecutorService', 'FutureTask', 'Which class in Java provides a non-blocking mechanism to handle asynchronous computation?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('java.nio', 'java.io', 'java.nio', 'java.net', 'java.util', 'Which Java package is used for NIO (Non-blocking I/O) operations?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Reflection', 'Annotations', 'Reflection', 'Serialization', 'Dynamic Proxy', 'Which feature in Java allows you to inspect or modify the behavior of classes, methods, and fields at runtime?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('volatile', 'transient', 'volatile', 'final', 'static', 'Which keyword ensures that changes to a variable are visible across all threads in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ExecutorService', 'ThreadPoolExecutor', 'ExecutorService', 'ScheduledExecutorService', 'ForkJoinPool', 'Which interface in Java is used to manage and control a pool of threads?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('StackOverflowError', 'OutOfMemoryError', 'StackOverflowError', 'ClassNotFoundException', 'IllegalArgumentException', 'Which error is thrown when a thread’s stack exceeds its limit in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('PhantomReference', 'WeakReference', 'PhantomReference', 'SoftReference', 'HardReference', 'Which type of reference is used to implement post-mortem cleanup of objects in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('NoClassDefFoundError', 'ClassNotFoundException', 'NoClassDefFoundError', 'IOException', 'RuntimeException', 'Which error is thrown when a class is found during compilation but cannot be found during runtime in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('finalize()', 'destroy()', 'delete()', 'finalize()', 'dispose()', 'Which method is invoked before an object is garbage collected in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('java.util.concurrent.locks.Lock', 'java.util.concurrent.Semaphore', 'java.util.concurrent.locks.Lock', 'java.util.concurrent.CountDownLatch', 'java.util.concurrent.CyclicBarrier', 'Which interface provides a mechanism for explicitly acquiring and releasing locks in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ConcurrentHashMap', 'HashMap', 'TreeMap', 'ConcurrentHashMap', 'Hashtable', 'Which map implementation in Java allows for thread-safe, concurrent access with high concurrency?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ForkJoinPool', 'ThreadPoolExecutor', 'ForkJoinPool', 'ExecutorService', 'WorkStealingPool', 'Which class is designed for parallelism and efficient task processing in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('LinkedBlockingQueue', 'ArrayBlockingQueue', 'LinkedBlockingQueue', 'PriorityBlockingQueue', 'DelayQueue', 'Which class in Java implements a thread-safe queue with blocking behavior?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('CountDownLatch', 'CyclicBarrier', 'CountDownLatch', 'Semaphore', 'Exchanger', 'Which class in Java is used for synchronizing threads by allowing one or more threads to wait until a set of operations completes?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ReentrantReadWriteLock', 'ReadWriteLock', 'ReentrantReadWriteLock', 'ReentrantLock', 'ReadWriteLock', 'Which class in Java allows threads to read from a shared resource without locking, but requires a write lock for modifications?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ThreadPoolExecutor', 'ScheduledExecutorService', 'ThreadPoolExecutor', 'ForkJoinPool', 'ExecutorService', 'Which class in Java provides a flexible thread pool for executing tasks asynchronously?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Unsafe', 'MemoryHandler', 'Unsafe', 'MemoryManager', 'NativeMemory', 'Which class in Java provides low-level memory access operations and is often used in performance-critical code?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('AtomicInteger', 'AtomicBoolean', 'AtomicInteger', 'AtomicLong', 'AtomicReference', 'Which class in Java provides a thread-safe, atomic increment of an integer value?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('LinkedHashMap', 'HashMap', 'TreeMap', 'LinkedHashMap', 'ConcurrentHashMap', 'Which map implementation maintains the order of insertion in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ObjectInputStream', 'ObjectOutputStream', 'ObjectInputStream', 'DataInputStream', 'FileInputStream', 'Which class in Java is used to read objects from an input stream?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ThreadGroup', 'ThreadPool', 'ThreadGroup', 'Thread', 'Executor', 'Which class is used to organize and manage multiple threads in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('DirectByteBuffer', 'HeapByteBuffer', 'DirectByteBuffer', 'MappedByteBuffer', 'ByteBuffer', 'Which class in Java is used to allocate native memory outside of the JVM heap for I/O operations?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('LinkedList', 'ArrayList', 'LinkedList', 'Vector', 'Stack', 'Which collection class provides O(1) time complexity for insertion and removal at the ends in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('InvocationHandler', 'MethodInvocation', 'InvocationHandler', 'MethodHandler', 'ReflectionHandler', 'Which interface in Java allows dynamic proxies to handle method invocations?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('MBeanServer', 'ObjectServer', 'MBeanServer', 'NotificationServer', 'JMXServer', 'Which class in Java is part of the Java Management Extensions (JMX) for managing resources dynamically?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ClassLoader', 'Reflection', 'ClassLoader', 'MethodHandles', 'ObjectStreamClass', 'Which class in Java is responsible for loading classes into memory?', 'Hard', 'Java');
+
+ INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('MethodHandles', 'MethodReference', 'MethodHandles', 'Reflection', 'Lambda', 'Which class provides support for dynamic method invocation and reflection in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Volatile', 'Atomic', 'Volatile', 'Synchronized', 'Mutex', 'Which keyword in Java is used to ensure that a variable is directly visible to all threads?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Thread.sleep()', 'Thread.wait()', 'Thread.sleep()', 'Thread.join()', 'Thread.yield()', 'Which method is used to pause the execution of the current thread for a specified time in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ForkJoinTask', 'ExecutorService', 'ForkJoinTask', 'Runnable', 'Callable', 'Which class is used for handling tasks in a Fork/Join framework for parallel processing in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('CompletableFuture.supplyAsync()', 'ExecutorService.submit()', 'Thread.run()', 'CompletableFuture.supplyAsync()', 'Runnable.run()', 'Which method is used to asynchronously execute a task that produces a result in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('AtomicReference', 'AtomicInteger', 'AtomicReference', 'AtomicLong', 'AtomicBoolean', 'Which class provides atomic operations on reference types in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('CyclicBarrier', 'CountDownLatch', 'Semaphore', 'CyclicBarrier', 'Exchanger', 'Which synchronization aid is used to synchronize a set of threads at a common barrier point in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Lambda Expressions', 'Functional Interfaces', 'Lambda Expressions', 'Anonymous Classes', 'Streams', 'Which feature in Java 8 allows you to pass code as an argument to methods?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Method References', 'Functional Interfaces', 'Method References', 'Lambda Expressions', 'Anonymous Classes', 'Which feature in Java 8 allows you to refer to methods of classes or objects directly in a shorthand manner?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('NIO Selector', 'ThreadPoolExecutor', 'ExecutorService', 'NIO Selector', 'EventQueue', 'Which NIO component is used for multiplexing network connections in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('writeAndFlush()', 'send()', 'writeAndFlush()', 'writeBytes()', 'flush()', 'Which method in Java’s NIO framework is used to send data and flush it in one operation?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('JVM Heap', 'Native Memory', 'JVM Heap', 'Stack Memory', 'Direct Memory', 'Which memory area in the JVM is used for dynamic memory allocation for objects?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('MemoryMappedFile', 'MappedByteBuffer', 'MemoryMappedFile', 'DirectByteBuffer', 'ByteBuffer', 'Which Java class is used for memory-mapped file I/O operations?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Double-Checked Locking', 'Single-Checked Locking', 'Double-Checked Locking', 'Mutex Locking', 'Synchronized Block', 'Which design pattern in Java is used to implement thread-safe singleton objects with improved performance?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('finalize() is deprecated', 'finalize() is not deprecated', 'finalize() is deprecated', 'finalize() is obsolete', 'finalize() is not recommended', 'Which statement is correct regarding the finalize() method in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('WeakReference', 'StrongReference', 'WeakReference', 'SoftReference', 'PhantomReference', 'Which reference type in Java allows objects to be garbage collected when no strong references exist?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Unsafe.compareAndSwapObject()', 'AtomicInteger.compareAndSet()', 'Unsafe.compareAndSwapObject()', 'AtomicReference.compareAndSwap()', 'AtomicLong.compareAndSwap()', 'Which method in the Unsafe class is used for atomic object reference updates in Java?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ThreadLocalRandom', 'Random', 'ThreadLocalRandom', 'SecureRandom', 'Math.random()', 'Which class in Java provides a random number generator that can be used safely in a multithreaded environment?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Wait/Notify', 'sleep/notify', 'wait/notify', 'notifyAll/wait', 'sleep/notifyAll', 'Which mechanism in Java is used for inter-thread communication?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('Synchronized Method', 'Volatile Variable', 'Synchronized Block', 'Synchronized Method', 'Concurrent Collection', 'Which mechanism in Java is used to ensure that only one thread can access a method at a time?', 'Hard', 'Java');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('try-with-resources', 'finally block', 'try-with-resources', 'catch block', 'close() method', 'Which feature in Java 7 and later ensures that resources are automatically closed after use?', 'Hard', 'Java');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY) 
+
+VALUES ('ThreadPoolExecutor', 'ExecutorService', 'ScheduledExecutorService', 'ThreadPoolExecutor', 'ForkJoinPool', 'Which class is used to manage a pool of threads in Java for executing tasks asynchronously?', 'Hard', 'Java');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('def', 'def', 'function', 'method', 'define', 'What is the keyword used to define a function in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Indentation', 'Curly Braces', 'Indentation', 'Semicolon', 'Colon', 'Which of the following is used to indicate a block of code in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('len()', 'len()', 'length()', 'count()', 'size()', 'Which function is used to get the length of a list in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Prints data to the console', 'Prints data to the console', 'Prints data to a file', 'Prints data to a variable', 'Prints data to the system log', 'What does the print() function do in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('import', 'import', 'include', 'using', 'require', 'Which of the following is used to import a module in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('[]', '[]', '{}', '()', '<>', 'How do you create a list in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('float', 'int', 'float', 'str', 'bool', 'Which data type is used to represent decimal numbers in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Checks the type of an object', 'Checks the type of an object', 'Converts the type of an object', 'Changes the value of an object', 'Checks if the object is null', 'What does the type() function do in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Both \'Hello\' and "Hello"', '\'Hello\'', '\"Hello\"', 'Hello', 'Both \'Hello\' and "Hello"', 'What is the correct way to define a string in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('abs()', 'abs()', 'absolute()', 'round()', 'value()', 'Which function is used to get the absolute value of a number in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('int()', 'str()', 'int()', 'float()', 'convert()', 'Which Python function is used to convert a string to an integer?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('# This is a comment', '# This is a comment', '// This is a comment', '/* This is a comment */', '/* This is a comment', 'How do you write a comment in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('True', 'True', 'False', 'Error', 'None', 'What will be the output of print(5 == 5) in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('13', '25', '13', '10', '7', 'What is the result of the expression 3 + 2 * 5 in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('append()', 'add()', 'insert()', 'append()', 'extend()', 'Which method is used to append an item to a list in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('class', 'class', 'def', 'function', 'module', 'What is the keyword used for defining a class in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('List', 'Queue', 'List', 'Array', 'Stack', 'Which of the following is a built-in Python data structure?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('All of the above', 'pop()', 'remove()', 'del', 'All of the above', 'Which of the following methods can be used to remove an element from a list in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('2.5', '2', '2.0', '2.5', '3', 'What is the result of 5 / 2 in Python 3?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('{}', '[]', '{}', '()', '<>', 'How do you create a dictionary in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('try-except', 'try-except', 'try-catch', 'catch-try', 'throw-catch', 'Which of the following is used to handle exceptions in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('True', 'True', 'False', 'None', 'Error', 'What is the result of 3 == 3.0 in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('my_variable', '1variable', 'my_variable', 'variable_name#', '@variable', 'Which of the following is a valid variable name in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('**', '*', '/', '**', '//', 'Which of the following operators is used for exponentiation in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('n', 'P', 'e', 'l', 'o', 'What is the output of print(\'Python\'[-1])?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('str.lower()', 'str.lower()', 'str.lowercase()', 'str.to_lower()', 'str.convert()', 'How do you convert a string to lowercase in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('4', '3', '4', '5', 'None', 'What is the result of len([1, 2, 3, 4])?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('It is used to specify an alternative block of code', 'It is used to catch exceptions', 'It is used to specify an alternative block of code', 'It is used to define a function', 'It is used to specify the end of a loop', 'What is the purpose of the else clause in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('type()', 'type()', 'isinstance()', 'typeof()', 'get_type()', 'Which of the following functions can be used to find the type of a variable in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('9//4', '9//4', '9/4', 'divmod(9, 4)', '9%4', 'Which of the following will give the floor division result of 9 / 4 in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('clear()', 'clear()', 'remove()', 'pop()', 'del', 'Which of the following will remove all items from a list in Python?', 'Easy', 'Python');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('def', 'function', 'def', 'method', 'lambda', 'Which keyword is used to define a function in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('while', 'if', 'for', 'while', 'loop', 'Which keyword is used to create a while loop in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('break', 'exit', 'end', 'break', 'continue', 'Which statement is used to exit a loop in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('elif', 'else', 'elif', 'if', 'when', 'Which keyword is used to specify an additional condition in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('[]', '()', '[]', '{}', '<>', 'What type of brackets are used for lists in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('is', '==', 'is', '===', 'equals', 'Which operator is used to check if two objects are the same object in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('float', 'str', 'int', 'float', 'list', 'Which data type in Python is used to represent floating-point numbers?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('del', 'remove', 'pop', 'del', 'clear', 'Which statement is used to delete a variable in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('set', 'list', 'set', 'tuple', '
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('def', 'function', 'def', 'method', 'lambda', 'Which keyword is used to define a function in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('while', 'if', 'for', 'while', 'loop', 'Which keyword is used to create a while loop in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('break', 'exit', 'end', 'break', 'continue', 'Which statement is used to exit a loop in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('elif', 'else', 'elif', 'if', 'when', 'Which keyword is used to specify an additional condition in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('[]', '()', '[]', '{}', '<>', 'What type of brackets are used for lists in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('is', '==', 'is', '===', 'equals', 'Which operator is used to check if two objects are the same object in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('float', 'str', 'int', 'float', 'list', 'Which data type in Python is used to represent floating-point numbers?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('del', 'remove', 'pop', 'del', 'clear', 'Which statement is used to delete a variable in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('set', 'list', 'set', 'tuple', 'dict', 'Which of the following is an unordered collection in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('range()', 'len()', 'range()', 'size()', 'iterate()', 'Which function in Python generates a sequence of numbers?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('True', 'True', 'False', 'None', 'Error', 'What is the result of 10 > 5 in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('None', 'None', 'Null', 'undefined', 'nil', 'Which keyword is used to define a null value in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('iterable', 'list', 'dict', 'iterable', 'int', 'Which term refers to an object that can be looped over in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('continue', 'exit', 'continue', 'break', 'stop', 'Which statement in Python skips the current iteration of a loop?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__init__', '__init__', '__new__', '__start__', 'constructor', 'Which method is the constructor in Python classes?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('getattr()', 'setattr()', 'getattr()', 'hasattr()', 'delattr()', 'Which function is used to access an attribute of an object in Python?', 'Easy', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('True', 'True', 'False', 'None', '0', 'What is the result of bool([]) in Python?', 'Easy', 'Python');
+
+ 
+
+
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('try-except-finally', 'try-except', 'try-finally', 'try-except-finally', 'except-finally', 'Which block structure is used for error handling in Python with optional clean-up actions?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('with', 'def', 'with', 'try', 'yield', 'Which keyword in Python is used for resource management like file handling?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('property', 'classmethod', 'property', 'staticmethod', 'staticmethodmethod', 'Which Python decorator allows you to define methods that can be accessed as attributes?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('itertools.chain()', 'itertools.chain()', 'itertools.zip()', 'itertools.map()', 'itertools.reduce()', 'Which function from the itertools module is used to chain multiple iterables together?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('OrderedDict', 'dict', 'OrderedDict', 'list', 'set', 'Which type of Python dictionary remembers the order in which items are inserted?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('assert', 'assert', 'if', 'try', 'raise', 'Which Python keyword is used to assert that a condition is true during testing?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('yield', 'return', 'yield', 'break', 'continue', 'Which keyword in Python is used to define a generator function?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('list slicing', 'indexing', 'list slicing', 'list comprehension', 'filtering', 'What technique is used to extract a sublist from a list in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('isinstance()', 'issubclass()', 'type()', 'isinstance()', 'getattr()', 'Which function in Python checks if an object is an instance of a specified class?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('map()', 'map()', 'filter()', 'reduce()', 'zip()', 'Which function in Python applies a function to each item in an iterable?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__call__()', '__call__()', '__init__()', '__str__()', '__repr__()', 'Which method in Python is used to make an object callable like a function?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('reduce()', 'filter()', 'map()', 'reduce()', 'sort()', 'Which function from the functools module accumulates the result of a function on an iterable in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('globals()', 'locals()', 'globals()', 'builtins()', 'locals()', 'Which function returns the global symbol table in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__getitem__()', '__setitem__()', '__getitem__()', '__delitem__()', '__init__()', 'Which magic method is called when accessing an element of a collection using indexing in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('collections.Counter', 'collections.Counter', 'dict', 'OrderedDict', 'set', 'Which Python collection is used to count hashable objects?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__del__()', '__del__()', '__init__()', '__str__()', '__repr__()', 'Which magic method is used to define a destructor in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('filter()', 'map()', 'filter()', 'reduce()', 'zip()', 'Which function in Python is used to filter items from an iterable based on a function?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('import', 'include', 'import', 'use', 'require', 'Which keyword is used to import a module in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('is', 'is', '==', '!=', 'in', 'Which operator checks if two variables refer to the same object in Python?', 'Medium', 'Python');
+
+ 
+
+
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('list comprehension', 'map()', 'list comprehension', 'filter()', 'reduce()', 'Which Python feature is used to create a new list by applying an expression to each item in an existing list?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('lambda', 'function', 'lambda', 'def', 'anonymous', 'What keyword is used to create an anonymous function in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('set', 'dict', 'set', 'list', 'tuple', 'Which of the following Python collections does not allow duplicate elements?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('enumerate()', 'map()', 'enumerate()', 'zip()', 'filter()', 'Which function in Python provides an index value along with the items in a list?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('staticmethod', 'classmethod', 'staticmethod', 'staticmethodmethod', 'instancemethod', 'Which decorator is used to define a method that does not require an instance of the class in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('filter()', 'filter()', 'map()', 'reduce()', 'sort()', 'Which function in Python is used to filter items from an iterable based on a condition?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('deepcopy()', 'copy()', 'deepcopy()', 'clone()', 'duplicate()', 'Which method is used to create a copy of an object along with all nested objects in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('args', 'kwargs', 'args', 'params', 'arguments', 'In Python, what is the term used to refer to the variable number of positional arguments in a function?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('global', 'global', 'local', 'static', 'dynamic', 'Which keyword is used to declare a global variable in a function in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('zip()', 'zip()', 'join()', 'merge()', 'combine()', 'Which function in Python is used to combine two iterables into pairs?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('join()', 'split()', 'join()', 'combine()', 'merge()', 'Which method is used to join elements of a list into a string in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__str__()', '__repr__()', '__str__()', '__format__()', '__method__()', 'Which method is used to return a human-readable string representation of an object in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('defaultdict', 'dict', 'defaultdict', 'list', 'tuple', 'Which Python collection is a subclass of dict and allows you to set default values for missing keys?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('itertools', 'functools', 'itertools', 'os', 'sys', 'Which Python module provides a set of fast, memory-efficient tools for working with iterators?', 'Medium', 'Python');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('reduce()', 'filter()', 'map()', 'reduce()', 'zip()', 'Which function in Python is used to apply a function cumulatively to the items of an iterable?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__repr__()', '__str__()', '__format__()', '__call__()', 'Which magic method is used to represent an object in a more formal string format suitable for debugging?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('reversed()', 'reversed()', 'reverse()', 'sort()', 'flip()', 'Which function in Python is used to reverse an iterable?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('filter()', 'map()', 'reduce()', 'filter()', 'sum()', 'Which function is used to filter elements from an iterable that do not meet a condition in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('super()', 'self()', 'super()', 'parent()', 'base()', 'Which function in Python is used to call a method from a parent class?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__delitem__()', '__getitem__()', '__setitem__()', '__delitem__()', '__init__()', 'Which magic method is used to delete an item from a collection in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('hashable', 'iterable', 'hashable', 'mutable', 'iterable', 'What type of objects can be used as dictionary keys in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__contains__()', '__setitem__()', '__contains__()', '__delitem__()', '__getitem__()', 'Which magic method is used to check if an item exists in a collection in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('yield', 'return', 'yield', 'break', 'continue', 'Which Python keyword is used to create a generator that yields items one at a time?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@staticmethod', '@staticmethod', '@classmethod', '@property', '@classmethod', 'Which decorator in Python is used to define a static method inside a class?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('namedtuple', 'tuple', 'list', 'namedtuple', 'dict', 'Which Python module provides an easy way to define classes for simple objects like tuples with named fields?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('abs()', 'abs()', 'round()', 'floor()', 'ceil()', 'Which function in Python is used to return the absolute value of a number?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('args', 'args', 'kwargs', 'posargs', 'varargs', 'In Python, which keyword refers to variable positional arguments in a function?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('kwarg', 'args', 'kwarg', 'parameter', 'argument', 'In Python, what keyword is used to define variable-length keyword arguments in a function?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('isinstance()', 'type()', 'isinstance()', 'issubclass()', 'getattr()', 'Which function in Python checks if an object is an instance of a particular class or subclass?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('collections.defaultdict', 'dict', 'list', 'collections.defaultdict', 'set', 'Which Python collection provides a default value for missing keys in a dictionary?', 'Medium', 'Python');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__call__()', '__init__()', '__call__()', '__str__()', '__repr__()', 'Which magic method is used to make an object callable like a function in Python?', 'Medium', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('os.path.join()', 'os.path.merge()', 'os.path.concat()', 'os.path.join()', 'os.path.combine()', 'Which function in Python is used to join paths in a cross-platform manner?', 'Medium', 'Python');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('metaclass', 'class', 'metaclass', 'type', 'module', 'Which of the following is used to define the behavior of classes in Python?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('asyncio', 'threading', 'asyncio', 'multiprocessing', 'time', 'Which Python library is used for writing concurrent code using async/await syntax?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('GIL', 'CPU', 'RAM', 'GIL', 'VM', 'What does GIL stand for in Python, which affects multi-threading performance?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__slots__', '__slots__', '__dict__', '__slots__', 'self', 'Which mechanism in Python is used to restrict the attributes of a class to a predefined set?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__call__()', '__call__()', '__init__()', '__repr__()', '__str__()', 'Which magic method in Python makes an object callable like a function?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('decorators', 'functions', 'decorators', 'classes', 'objects', 'Which Python feature allows a function to modify another function or class method?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('contextlib', 'os', 'contextlib', 'sys', 'functools', 'Which Python module provides utilities to work with context managers and the `with` statement?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('weakref', 'weakref', 'gc', 'ref', 'list', 'Which module in Python allows you to create weak references to objects?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('yield from', 'yield', 'return', 'yield from', 'break', 'Which Python statement is used for delegating part of a generator’s operations to another generator?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('multiprocessing', 'threading', 'multiprocessing', 'asyncio', 'concurrent.futures', 'Which module in Python is used to create processes for parallel execution?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('asyncio.run()', 'asyncio.await()', 'asyncio.run()', 'asyncio.start()', 'asyncio.execute()', 'Which function is used to run an async function from a non-async function in Python?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__del__()', '__del__()', '__init__()', '__str__()', '__repr__()', 'Which magic method is called when an object is being destroyed in Python?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('hash() function', 'len()', 'hash()', 'id()', 'del()', 'Which Python function returns the hash value of an object?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('subprocess', 'os', 'subprocess', 'sys', 'threading', 'Which Python module is used to spawn new processes, connect to their input/output/error pipes, and obtain their return codes?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('importlib', 'import', 'importlib', 'sys', 'module', 'Which Python module provides a way to import other modules dynamically?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('futures', 'asyncio', 'futures', 'concurrent', 'queue', 'Which Python library provides a high-level interface for asynchronously executing functions?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__iter__()', '__iter__()', '__next__()', '__call__()', '__getitem__()', 'Which magic method is used to define an iterable object in Python?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('threading.Lock', 'threading.Semaphore', 'threading.Lock', 'threading.Event', 'threading.Condition', 'Which Python class is used to create a lock object for managing threads in critical sections?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('collections.deque', 'list', 'tuple', 'set', 'collections.deque', 'Which collection in Python is optimized for fast appends and pops from both ends?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__dict__', '__slots__', '__dict__', '__repr__()', '__str__()', 'Which special attribute in Python holds the namespace for an object?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('sorted()', 'sorted()', 'sort()', 'reverse()', 'order()', 'Which function returns a new sorted list from the elements of any iterable in Python?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('types.SimpleNamespace', 'types.SimpleNamespace', 'dict', 'list', 'namedtuple', 'Which class in Python provides a simple object for storing arbitrary attributes?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('dataclasses', 'dataclasses', 'collections', 'namedtuple', 'attrs', 'Which Python module is used to create classes for storing data with minimal boilerplate code?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__next__()', '__iter__()', '__next__()', '__getitem__()', '__call__()', 'Which magic method is used in an iterator to retrieve the next item?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('mypy', 'pylint', 'mypy', 'flake8', 'bandit', 'Which tool in Python is used for static type checking?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('type annotations', 'type hints', 'type annotations', 'type comments', 'type hints', 'Which feature in Python allows you to specify the type of function arguments and return values?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('from __future__ import', 'from __future__ import', 'import', 'importlib', 'from __future__ import absolute_import', 'Which Python statement allows you to import features from future Python versions?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('abc.ABCMeta', 'type', 'abc.ABCMeta', 'collections.abc', 'base.BaseClass', 'Which metaclass is used to define abstract base classes in Python?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('traceback', 'logging', 'traceback', 'debugger', 'sys', 'Which Python module provides functions for extracting, formatting, and printing stack traces?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__del__()', '__del__()', '__init__()', '__call__()', '__repr__()', 'Which magic method is used to implement a destructor in Python?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('async def', 'def', 'async def', 'lambda', 'yield', 'Which syntax is used to define an asynchronous function in Python?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('selectors', 'selectors', 'asyncio', 'multiprocessing', 'threading', 'Which module in Python provides high-level I/O multiplexing for monitoring multiple I/O streams?', 'Hard', 'Python');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__getattr__()', '__setattr__()', '__getattr__()', '__getitem__()', '__repr__()', 'Which magic method is used to dynamically access an attribute that does not exist in a class?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__iter__()', '__next__()', '__iter__()', '__getitem__()', '__call__()', 'Which magic method is used to make an object iterable in Python?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('comprehensions', 'list comprehension', 'comprehensions', 'map() function', 'filter() function', 'Which of the following is used to create new lists by applying an expression to each item in an iterable in Python?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@property', '@classmethod', '@property', '@staticmethod', '@dataclass', 'Which Python decorator is used to turn a method into a read-only attribute?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__delattr__()', '__getattr__()', '__delattr__()', '__setattr__()', '__repr__()', 'Which magic method in Python is used to delete an attribute of an object?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('setdefault()', 'get()', 'setdefault()', 'add()', 'remove()', 'Which method in Python dictionaries is used to get a value for a key, and if the key does not exist, insert the key with a default value?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('asyncio.gather()', 'asyncio.run()', 'asyncio.gather()', 'asyncio.create_task()', 'asyncio.wait()', 'Which function in Python is used to run multiple asynchronous tasks concurrently and gather their results?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('multiprocessing.Pool', 'threading.Thread', 'multiprocessing.Pool', 'asyncio.Queue', 'queue.Queue', 'Which Python class is used to manage a pool of worker processes?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('itertools.chain()', 'itertools.zip_longest()', 'itertools.chain()', 'itertools.combinations()', 'itertools.permutations()', 'Which function in Python’s itertools module is used to combine multiple iterables into one?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('threading.Condition', 'threading.Event', 'threading.Lock', 'threading.Condition', 'threading.Semaphore', 'Which Python class is used to synchronize threads based on specific conditions?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('collections.Counter', 'collections.Counter', 'collections.defaultdict', 'collections.namedtuple', 'collections.deque', 'Which Python collection is used to count the frequency of elements in an iterable?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@functools.lru_cache()', '@functools.cache()', '@functools.lru_cache()', '@property', '@dataclass', 'Which decorator in Python is used to memoize function results and limit the cache size?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('collections.OrderedDict', 'collections.OrderedDict', 'collections.defaultdict', 'dict', 'set', 'Which type of dictionary in Python preserves the order of items as they are added?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('functools.partial', 'functools.partial', 'functools.partialmethod', 'itertools.chain', 'itertools.cycle', 'Which function in Python is used to create a new function with one or more arguments fixed?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('sys.setrecursionlimit()', 'sys.exit()', 'sys.setrecursionlimit()', 'sys.path', 'sys.argv', 'Which function is used to set the maximum depth of the Python interpreter’s recursion stack?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('copy.deepcopy()', 'copy.copy()', 'copy.deepcopy()', 'list()', 'dict()', 'Which function in Python is used to create a deep copy of an object, including nested objects?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('hashlib', 'os', 'hashlib', 'sys', 'uuid', 'Which Python module provides the ability to create cryptographic hash functions like MD5, SHA, etc.?', 'Hard', 'Python');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('__aenter__()', '__enter__()', '__aenter__()', '__exit__()', '__aexit__()', 'Which magic method is used in Python’s asynchronous context manager to define setup actions?', 'Hard', 'Python');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('functools.total_ordering', 'functools.total_ordering', 'functools.lru_cache', 'functools.partial', 'functools.cache_property', 'Which decorator in Python is used to automatically generate comparison methods like __lt__, __eq__, etc. based on one or more methods?', 'Hard', 'Python');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Component', 'Directive', 'Module', 'Service', 'Component', 'Which of the following is used to define the building blocks of an Angular application?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngFor', 'ngIf', 'ngFor', 'ngModel', 'ngSwitch', 'Which Angular directive is used for looping over a list or array in the template?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@Component', '@Directive', '@Injectable', '@Pipe', '@Component', 'Which decorator is used to define an Angular component?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('{{ expression }}', '{ expression }', '[expression]', '(expression)', '{{ expression }}', 'What syntax is used for data binding in Angular to display dynamic content?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngModel', 'ngFor', 'ngIf', 'ngModel', 'ngClass', 'Which Angular directive is used for two-way data binding in forms?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Services', 'Components', 'Directives', 'Pipes', 'Services', 'In Angular, which is used to share data and logic between components?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngIf', 'ngFor', 'ngSwitch', 'ngIf', 'ngModel', 'Which Angular directive is used to conditionally include or exclude elements from the DOM?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@Injectable', '@Component', '@Directive', '@Injectable', '@Service', 'Which decorator is used to mark a class as a service in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Angular CLI', 'ng generate', 'ng build', 'ng serve', 'Angular CLI', 'Which command-line tool is used to create, build, and serve Angular applications?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('<app-root>', '<app-header>', '<app-root>', '<app-footer>', '<app-sidebar>', 'What is the default selector of the root component in an Angular application?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnInit', 'ngOnChanges', 'ngOnInit', 'ngOnDestroy', 'ngDoCheck', 'Which Angular lifecycle hook is called once after the component’s view is initialized?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnInit', 'ngOnInit', 'ngAfterViewInit', 'ngOnChanges', 'ngDoCheck', 'Which lifecycle hook is invoked after Angular has initialized the component’s input properties?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngFor', 'ngIf', 'ngClass', 'ngFor', 'ngStyle', 'Which directive is used to iterate over an array and display its elements in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Observable', 'Promise', 'Observable', 'EventEmitter', 'Callback', 'Which class in Angular is used to handle asynchronous operations and streams of data?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnChanges', 'ngOnInit', 'ngOnChanges', 'ngDoCheck', 'ngAfterViewChecked', 'Which lifecycle hook is called when an input property of a component changes?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@Input', '@Output', '@Input', '@Directive', '@Component', 'Which decorator is used to pass data from a parent component to a child component?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@Output', '@Input', '@Output', '@Directive', '@Component', 'Which decorator is used to emit events from a child component to a parent component?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngClass', 'ngStyle', 'ngClass', 'ngModel', 'ngIf', 'Which directive is used to conditionally add/remove CSS classes in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('AppModule', 'RootModule', 'MainModule', 'AppModule', 'CoreModule', 'Which module is the root module in an Angular application?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngModel', 'ngFor', 'ngIf', 'ngModel', 'ngSwitch', 'Which directive in Angular is used for two-way data binding in a form input element?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HttpClient', 'Http', 'HttpClient', 'HttpService', 'HttpRequest', 'Which Angular service is used to make HTTP requests to the backend server?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Route', 'Routes', 'Route', 'Router', 'RouterLink', 'In Angular, which is used to define a single route and map it to a component?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngStyle', 'ngModel', 'ngStyle', 'ngIf', 'ngClass', 'Which Angular directive is used to apply styles dynamically to an element?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngSwitch', 'ngIf', 'ngSwitch', 'ngFor', 'ngClass', 'Which directive is used to display content based on the value of an expression in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('routerLink', 'router-outlet', 'routerLink', 'router-view', 'router-path', 'Which directive is used to define a clickable link that navigates to a route in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnDestroy', 'ngOnInit', 'ngOnChanges', 'ngOnDestroy', 'ngDoCheck', 'Which lifecycle hook is called when a component is destroyed in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@HostListener', '@HostBinding', '@HostListener', '@Component', '@Input', 'Which decorator is used to listen to events on a DOM element in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-container', 'ng-template', 'ng-container', 'ng-view', 'ng-content', 'Which Angular element is used to group elements without adding extra DOM elements?', 'Easy', 'Angular');
+
+ INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnInit', 'ngAfterViewInit', 'ngOnInit', 'ngOnChanges', 'ngAfterContentInit', 'Which Angular lifecycle hook is called after the component’s view has been initialized?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@ViewChild', '@Input', '@Output', '@Directive', '@ViewChild', 'Which Angular decorator is used to access a child component or DOM element in the template?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngDoCheck', 'ngAfterViewChecked', 'ngDoCheck', 'ngOnChanges', 'ngOnInit', 'Which lifecycle hook is called during every change detection cycle in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngIf', 'ngFor', 'ngIf', 'ngClass', 'ngModel', 'Which Angular directive is used to conditionally display an element based on a boolean expression?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngModel', 'ngFor', 'ngIf', 'ngModel', 'ngClass', 'Which directive is used to create two-way data binding in Angular forms?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@Pipe', '@Component', '@Directive', '@Injectable', '@Pipe', 'Which decorator is used to create custom transformation logic in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('RouterModule', 'HttpClientModule', 'RouterModule', 'FormsModule', 'BrowserModule', 'Which module is used for routing and navigation in an Angular application?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngModel', 'ngFor', 'ngIf', 'ngModel', 'ngStyle', 'Which Angular directive is used for two-way data binding in input fields within forms?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-content', 'ng-template', 'ng-content', 'ng-view', 'ng-container', 'Which directive is used to project content into a component in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-template', 'ng-container', 'ng-template', 'ng-content', 'ng-view', 'Which directive is used to define a block of code to be rendered conditionally in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngSwitchCase', 'ngSwitch', 'ngSwitchCase', 'ngFor', 'ngClass', 'Which directive is used in Angular to define case statements within a switch block?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngSwitch', 'ngFor', 'ngSwitch', 'ngIf', 'ngClass', 'Which directive is used to display a view based on the value of an expression in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngClass', 'ngClass', 'ngStyle', 'ngModel', 'ngSwitch', 'Which Angular directive is used to conditionally add/remove CSS classes?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngFor', 'ngFor', 'ngIf', 'ngSwitch', 'ngModel', 'Which Angular directive is used to repeat elements in the template for each item in an iterable?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnInit', 'ngOnChanges', 'ngOnInit', 'ngOnDestroy', 'ngDoCheck', 'Which lifecycle hook is invoked after the component is initialized and its input properties are set?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngAfterViewInit', 'ngAfterViewInit', 'ngOnChanges', 'ngOnInit', 'ngDoCheck', 'Which lifecycle hook is called after Angular initializes the views of a component?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnDestroy', 'ngOnInit', 'ngOnChanges', 'ngOnDestroy', 'ngDoCheck', 'Which Angular lifecycle hook is invoked when a component is about to be destroyed?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@Output', '@Input', '@Output', '@Directive', '@Component', 'Which decorator is used to emit events from a child component to its parent in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@ViewChild', '@ContentChild', '@ViewChild', '@Injectable', '@Directive', 'Which Angular decorator is used to query a child component or DOM element from a parent component?', 'Easy', 'Angular');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('RouterLink', 'RouterOutlet', 'RouterLink', 'RouterLinkActive', 'RouterModule', 'Which directive is used to navigate to a different route in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HttpClientModule', 'RouterModule', 'FormsModule', 'HttpClientModule', 'BrowserModule', 'Which Angular module is required to make HTTP requests from an Angular application?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngStyle', 'ngModel', 'ngStyle', 'ngIf', 'ngFor', 'Which directive is used to apply inline CSS styles dynamically to elements in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-content', 'ng-container', 'ng-template', 'ng-content', 'ng-view', 'Which directive is used to insert projected content into a component’s template in Angular?', 'Easy', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngForOf', 'ngFor', 'ngForOf', 'ngForEach', 'ngRepeat', 'Which directive is used to iterate over a collection and render the template for each item in Angular?', 'Easy', 'Angular');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnInit', 'ngOnChanges', 'ngAfterContentChecked', 'ngOnInit', 'ngDoCheck', 'Which lifecycle hook is called once after Angular has initialized the component’s view?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ChangeDetectorRef', 'Renderer2', 'NgZone', 'ChangeDetectorRef', 'ApplicationRef', 'Which service in Angular is used to trigger change detection manually?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngAfterContentInit', 'ngAfterContentChecked', 'ngOnInit', 'ngAfterViewInit', 'ngOnChanges', 'Which lifecycle hook is called after Angular has projected content into the component’s view?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnDestroy', 'ngOnInit', 'ngAfterViewInit', 'ngOnChanges', 'ngDoCheck', 'Which Angular lifecycle hook is used to perform cleanup just before the component is destroyed?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngAfterViewInit', 'ngAfterViewChecked', 'ngOnChanges', 'ngOnInit', 'ngAfterViewInit', 'Which lifecycle hook is called after Angular initializes the component’s view and child views?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@ViewChild', '@ContentChild', '@HostListener', '@Input', '@ViewChild', 'Which decorator is used to access child components or elements in the component’s template?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@HostListener', '@ViewChild', '@Output', '@Input', '@HostListener', 'Which decorator allows you to listen to DOM events in Angular?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngDoCheck', 'ngOnChanges', 'ngDoCheck', 'ngOnInit', 'ngAfterViewChecked', 'Which lifecycle hook is used for custom change detection in Angular?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnChanges', 'ngOnInit', 'ngOnChanges', 'ngOnDestroy', 'ngDoCheck', 'Which lifecycle hook is triggered when Angular detects a change in a component’s input properties?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngContent', 'ngTemplate', 'ngContent', 'ngFor', 'ngClass', 'Which directive is used for content projection in Angular components?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-container', 'ng-template', 'ng-content', 'ng-container', 'ng-view', 'Which directive is used to group elements without introducing extra DOM elements?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HttpClientModule', 'RouterModule', 'FormsModule', 'HttpClientModule', 'BrowserModule', 'Which Angular module is required for making HTTP requests to a backend API?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HttpClient', 'HttpRequest', 'HttpService', 'HttpClient', 'HttpModule', 'Which Angular service is used to handle HTTP requests and responses?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HttpHeaders', 'HttpRequest', 'HttpErrorResponse', 'HttpHeaders', 'HttpResponse', 'Which class is used to define headers for an HTTP request in Angular?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('RouterLink', 'RouterOutlet', 'RouterLinkActive', 'RouterLink', 'RouterLink', 'Which directive is used to create links to different routes in an Angular application?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ActivatedRoute', 'Router', 'Route', 'ActivatedRoute', 'RouterModule', 'Which service provides access to route parameters, query parameters, and other route-related information in Angular?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-template', 'ng-view', 'ng-container', 'ng-template', 'ng-content', 'Which directive is used to define an inline template that can be rendered later in Angular?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngForOf', 'ngFor', 'ngIf', 'ngForOf', 'ngSwitch', 'Which directive is used for iterating over a list or array in Angular?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngModel', 'ngClass', 'ngStyle', 'ngModel', 'ngIf', 'Which directive is used for two-way data binding in Angular forms?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngSwitch', 'ngIf', 'ngSwitch', 'ngModel', 'ngClass', 'Which directive is used to conditionally display different elements based on the value of an expression?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('RouterModule', 'HttpClientModule', 'RouterModule', 'FormsModule', 'BrowserModule', 'Which module is used for routing and navigation in Angular applications?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngClass', 'ngModel', 'ngClass', 'ngStyle', 'ngSwitch', 'Which directive is used to conditionally add/remove CSS classes in Angular?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@Injectable', '@Component', '@Directive', '@Injectable', '@Pipe', 'Which decorator is used to define a service class in Angular?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnChanges', 'ngAfterViewChecked', 'ngOnInit', 'ngOnChanges', 'ngDoCheck', 'Which lifecycle hook is called when input properties of a component change?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-content', 'ng-template', 'ng-content', 'ng-container', 'ng-view', 'Which directive is used to project content into a component template?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngStyle', 'ngClass', 'ngStyle', 'ngIf', 'ngModel', 'Which Angular directive is used to dynamically apply styles to elements?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('RxJS', 'Observable', 'Promise', 'RxJS', 'EventEmitter', 'Which library is used for reactive programming and handling asynchronous data streams in Angular?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngIf', 'ngSwitch', 'ngIf', 'ngFor', 'ngClass', 'Which directive is used to conditionally include or exclude elements from the DOM in Angular?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@Output', '@Input', '@HostBinding', '@Output', '@Injectable', 'Which Angular decorator is used to create custom event emitters from a child to a parent component?', 'Medium', 'Angular');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@ContentChild', '@ViewChild', '@Input', '@ContentChild', '@Output', 'Which decorator is used to query projected content in Angular components?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngAfterContentChecked', 'ngOnInit', 'ngAfterViewInit', 'ngAfterContentChecked', 'ngDoCheck', 'Which Angular lifecycle hook is called after every change detection cycle for projected content?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnChanges', 'ngOnInit', 'ngDoCheck', 'ngOnChanges', 'ngAfterViewInit', 'Which lifecycle hook is triggered when Angular detects changes to input properties of a component?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnDestroy', 'ngOnChanges', 'ngOnInit', 'ngAfterContentChecked', 'ngOnDestroy', 'Which lifecycle hook is used to perform cleanup tasks before the component is destroyed?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnInit', 'ngOnChanges', 'ngAfterViewInit', 'ngOnInit', 'ngDoCheck', 'Which lifecycle hook is called once after Angular has initialized the component’s view and inputs?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('RouterModule', 'HttpClientModule', 'FormsModule', 'RouterModule', 'ReactiveFormsModule', 'Which Angular module is responsible for setting up routing and navigation in an application?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ActivatedRoute', 'Router', 'Route', 'ActivatedRoute', 'RouterLink', 'Which service is used to retrieve route parameters, query parameters, and information about the current route?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HttpInterceptor', 'HttpClient', 'HttpModule', 'HttpInterceptor', 'HttpRequest', 'Which Angular service can be used to intercept HTTP requests and responses globally?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HttpErrorResponse', 'HttpResponse', 'HttpHeaders', 'HttpErrorResponse', 'HttpClient', 'Which class in Angular is used to represent an error response in HTTP requests?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('FormGroup', 'FormControl', 'FormArray', 'FormGroup', 'NgModel', 'Which Angular class is used to group multiple form controls into a single unit for easier management?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ReactiveFormsModule', 'FormsModule', 'HttpClientModule', 'ReactiveFormsModule', 'RouterModule', 'Which module is needed for using reactive forms in Angular?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('NgModel', 'FormControl', 'NgModel', 'FormGroup', 'FormArray', 'Which directive is used for two-way data binding in template-driven forms in Angular?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngSubmit', 'ngModel', 'ngIf', 'ngSubmit', 'ngFor', 'Which directive is used to handle form submission in Angular forms?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@Injectable', '@Component', '@Directive', '@Injectable', '@HostListener', 'Which decorator is used to define a service that can be injected into components and other services?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('RouteGuard', 'RouterLink', 'RouteGuard', 'RouteResolver', 'RouterOutlet', 'Which service is used to prevent access to certain routes based on conditions, such as authentication?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngModel', 'ngFor', 'ngIf', 'ngModel', 'ngStyle', 'Which directive is used to bind a form control to an input element in template-driven forms?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('NgZone', 'ChangeDetectorRef', 'NgZone', 'HttpClient', 'ApplicationRef', 'Which Angular service is used to manage execution outside Angular’s change detection mechanism?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngSwitchDefault', 'ngSwitch', 'ngFor', 'ngSwitchDefault', 'ngClass', 'Which directive is used as the default case in an Angular ngSwitch block?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngFor', 'ngForOf', 'ngIf', 'ngClass', 'ngFor', 'Which directive is used for iterating over collections in Angular templates?', 'Medium', 'Angular');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-content', 'ng-container', 'ng-template', 'ng-content', 'ng-view', 'Which directive is used to insert projected content inside a component’s template?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('async', 'await', 'ngFor', 'async', 'ngSwitch', 'Which pipe is used to unwrap values from an Observable or a Promise in Angular templates?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-template', 'ngIf', 'ng-container', 'ng-template', 'ng-content', 'Which directive is used to define an inline template that can be referenced and rendered dynamically in Angular?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('RouterOutlet', 'RouterLink', 'RouterModule', 'RouterOutlet', 'ActivatedRoute', 'Which directive is used to display the routed views in Angular applications?', 'Medium', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnChanges', 'ngOnInit', 'ngDoCheck', 'ngOnChanges', 'ngAfterViewChecked', 'Which lifecycle hook is called when Angular sets or resets the input properties of a component?', 'Medium', 'Angular');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnChanges', 'ngOnInit', 'ngAfterViewChecked', 'ngOnChanges', 'ngDoCheck', 'Which lifecycle hook is called when Angular detects changes to input properties of a component, including bindings from the parent component?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngDoCheck', 'ngOnInit', 'ngDoCheck', 'ngOnChanges', 'ngAfterViewInit', 'Which lifecycle hook is used to implement custom change detection in Angular?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnDestroy', 'ngOnInit', 'ngAfterViewChecked', 'ngOnDestroy', 'ngDoCheck', 'Which lifecycle hook is used for cleanup, such as unsubscribing from observables or detaching event listeners before Angular destroys the component?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngAfterContentChecked', 'ngOnInit', 'ngAfterViewInit', 'ngAfterContentChecked', 'ngOnChanges', 'Which lifecycle hook is called after Angular checks the content projected into the component?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngAfterViewChecked', 'ngOnInit', 'ngAfterContentChecked', 'ngAfterViewChecked', 'ngDoCheck', 'Which lifecycle hook is called after Angular checks the component’s view and child views for changes?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnChanges', 'ngOnInit', 'ngOnChanges', 'ngDoCheck', 'ngAfterContentChecked', 'Which lifecycle hook is called when Angular detects changes to the input properties of a component or directive?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngAfterViewInit', 'ngOnInit', 'ngAfterContentChecked', 'ngAfterViewInit', 'ngDoCheck', 'Which lifecycle hook is called after Angular initializes the component’s view and child views?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnInit', 'ngOnInit', 'ngAfterViewInit', 'ngDoCheck', 'ngOnChanges', 'Which lifecycle hook is called once after Angular has initialized all data-bound properties of the component?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ChangeDetectorRef', 'Renderer2', 'NgZone', 'ChangeDetectorRef', 'ApplicationRef', 'Which Angular service can be used to manually trigger change detection in a component?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('NgZone', 'ChangeDetectorRef', 'NgZone', 'HttpClient', 'ApplicationRef', 'Which Angular service allows for execution outside Angular’s change detection context, improving performance for certain asynchronous tasks?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@Injectable', '@Component', '@Injectable', '@Input', '@Directive', 'Which Angular decorator is used to define a service that can be injected into components and other services?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnChanges', 'ngAfterViewChecked', 'ngOnChanges', 'ngDoCheck', 'ngAfterViewInit', 'Which lifecycle hook is triggered when Angular detects changes to a component’s input properties?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HttpInterceptor', 'HttpModule', 'HttpInterceptor', 'HttpClient', 'HttpService', 'Which Angular feature allows for global interception of HTTP requests and responses to modify or log them?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('@ContentChild', '@ViewChild', '@ViewChild', '@Input', '@ContentChild', 'Which decorator is used to query child components or directives in a component’s content projection?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-template', 'ng-view', 'ng-container', 'ng-template', 'ng-content', 'Which directive in Angular is used to define a reusable template for rendering later, often in conjunction with ngFor or ngIf?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngForOf', 'ngFor', 'ngIf', 'ngForOf', 'ngSwitch', 'Which directive is used in Angular to iterate over arrays and collections in templates, with support for trackBy?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnDestroy', 'ngOnInit', 'ngOnChanges', 'ngDoCheck', 'ngOnDestroy', 'Which lifecycle hook is used to unsubscribe from observables or detach event listeners in Angular components?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-content', 'ng-view', 'ng-template', 'ng-content', 'ng-container', 'Which Angular directive is used to project content into a component’s template from a parent component?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('RxJS', 'Observable', 'RxJS', 'Promise', 'EventEmitter', 'Which library does Angular rely on for handling asynchronous data streams and events?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngZone.runOutsideAngular()', 'ngZone.run()', 'ChangeDetectorRef.detectChanges()', 'ngZone.runOutsideAngular()', 'ApplicationRef.tick()', 'Which Angular method allows running code outside Angular’s change detection context to optimize performance?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-template', 'ng-view', 'ng-content', 'ng-template', 'ng-container', 'Which Angular directive is used to define a block of HTML that can be conditionally rendered or reused in the template?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('RouterLinkActive', 'RouterLink', 'RouterLinkActive', 'RouterOutlet', 'RouterModule', 'Which directive is used to apply CSS classes to the active router link in Angular?', 'Hard', 'Angular');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngAfterViewInit', 'ngOnInit', 'ngAfterContentChecked', 'ngAfterViewInit', 'ngOnChanges', 'Which lifecycle hook is called after the view of a component and its children have been initialized?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnInit', 'ngOnChanges', 'ngAfterViewInit', 'ngOnInit', 'ngDoCheck', 'Which lifecycle hook is called once after Angular has initialized all data-bound properties of a component?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Renderer2', 'Renderer2', 'ChangeDetectorRef', 'NgZone', 'ApplicationRef', 'Which service is used to safely modify DOM elements in Angular without direct access to the DOM?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ChangeDetectionStrategy.OnPush', 'ChangeDetectionStrategy.Default', 'ChangeDetectionStrategy.OnPush', 'ChangeDetectorRef.Default', 'ApplicationRef.OnPush', 'Which change detection strategy in Angular optimizes performance by checking only when inputs to a component change?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-content', 'ng-template', 'ng-view', 'ng-content', 'ng-container', 'Which directive allows you to insert and project content from a parent component into a child component’s view?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngAfterContentInit', 'ngOnChanges', 'ngAfterContentInit', 'ngAfterViewInit', 'ngAfterContentChecked', 'Which lifecycle hook is called once after Angular initializes the content projected into the component?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnChanges', 'ngDoCheck', 'ngAfterViewChecked', 'ngOnChanges', 'ngAfterContentChecked', 'Which lifecycle hook is called when Angular sets or resets a component’s input properties?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ViewChild', 'ContentChild', 'ViewChild', 'Input', 'HostListener', 'Which decorator is used to access child components or DOM elements inside a component’s view?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-template', 'ng-content', 'ng-view', 'ng-template', 'ng-container', 'Which directive in Angular is used to define a template that can be referenced and reused in multiple locations within the component?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('RouterModule.forChild()', 'RouterModule', 'RouterModule.forRoot()', 'RouterModule.forChild()', 'ActivatedRoute', 'Which method in Angular is used to configure the child routes for a specific feature module?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnChanges', 'ngOnInit', 'ngAfterViewChecked', 'ngOnChanges', 'ngDoCheck', 'Which lifecycle hook is triggered when input-bound properties of a component change?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ChangeDetectorRef.detectChanges()', 'NgZone.run()', 'ChangeDetectorRef.detectChanges()', 'ngZone.run()', 'Renderer2.invokeElementMethod()', 'Which Angular service method can be used to manually trigger change detection on a component or directive?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('HttpErrorResponse', 'HttpErrorResponse', 'HttpResponse', 'HttpClient', 'HttpModule', 'Which Angular class represents an error response from an HTTP request?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngZone.run()', 'ChangeDetectorRef.detectChanges()', 'Renderer2.invokeElementMethod()', 'ngZone.run()', 'ApplicationRef.tick()', 'Which method in Angular’s NgZone service is used to execute code inside Angular’s change detection cycle?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('BehaviorSubject', 'Observable', 'Subject', 'BehaviorSubject', 'ReplaySubject', 'Which RxJS class is used to represent an observable that can store and emit the latest value to new subscribers?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngZone', 'ChangeDetectorRef', 'NgZone', 'Renderer2', 'ApplicationRef', 'Which Angular service is used to work outside the Angular change detection mechanism to improve performance?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('routeReuseStrategy', 'RouteLink', 'ActivatedRoute', 'routeReuseStrategy', 'RouterModule', 'Which service in Angular can be used to define custom route reuse strategies to improve performance?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-content', 'ng-template', 'ng-content', 'ng-container', 'ng-view', 'Which directive is used for content projection in Angular to allow a child component to receive content from its parent?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Subscription', 'Observable', 'Observer', 'Subject', 'Subscription', 'Which RxJS object is used to represent a subscription to an observable stream in Angular?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-container', 'ng-template', 'ng-content', 'ng-container', 'ng-view', 'Which Angular directive is used to group DOM elements without adding extra nodes to the DOM tree?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ng-template', 'ng-view', 'ng-template', 'ng-container', 'ng-content', 'Which Angular directive is used to define templates that can be conditionally rendered in a component’s view?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnChanges', 'ngOnInit', 'ngOnChanges', 'ngAfterViewInit', 'ngAfterContentChecked', 'Which lifecycle hook is called when Angular sets or resets the input properties of a component?', 'Hard', 'Angular');
+
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngAfterViewInit', 'ngOnInit', 'ngAfterContentChecked', 'ngAfterViewInit', 'ngAfterViewChecked', 'Which lifecycle hook is called after Angular initializes the component’s view and child views?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngOnChanges', 'ngOnInit', 'ngOnChanges', 'ngAfterViewInit', 'ngDoCheck', 'Which lifecycle hook is invoked when Angular detects changes to input properties of a component?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngAfterViewChecked', 'ngAfterViewInit', 'ngOnChanges', 'ngAfterViewChecked', 'ngOnDestroy', 'Which lifecycle hook is called after Angular checks the component’s view and child views for changes?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('routeReuseStrategy.shouldReuseRoute', 'routerLink', 'routeReuseStrategy.shouldReuseRoute', 'RouterModule.forRoot', 'RouterOutlet', 'Which method in Angular’s `RouteReuseStrategy` is used to determine whether a route should be reused?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Renderer2.setStyle()', 'Renderer2.setStyle()', 'ElementRef.nativeElement', 'ChangeDetectorRef.detectChanges()', 'NgZone.run()', 'Which method from `Renderer2` is used to dynamically set a style property on a DOM element in Angular?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ChangeDetectorRef.markForCheck()', 'ChangeDetectorRef.markForCheck()', 'NgZone.run()', 'Renderer2.setStyle()', 'ngDoCheck()', 'Which method is used to trigger change detection in components with `OnPush` strategy in Angular?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('NgModule', 'Injectable', 'NgModule', 'Component', 'Directive', 'Which Angular decorator is used to define a module that can contain components, services, and other Angular features?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('Observable', 'Subject', 'BehaviorSubject', 'Observable', 'ReplaySubject', 'Which RxJS object is used to create data streams that can be subscribed to and observed for asynchronous operations?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('ngZone.runOutsideAngular()', 'ngZone.run()', 'ngZone.runOutsideAngular()', 'ChangeDetectorRef.detectChanges()', 'ApplicationRef.tick()', 'Which method in Angular allows running code outside Angular’s change detection mechanism to avoid unnecessary checks?', 'Hard', 'Angular');
+ 
+INSERT INTO SYSTEM.QUESTION_SERVICE (CORRECT_ANSWER, OPTIONA, OPTIONB, OPTIONC, OPTIOND, QUESTION, QUESTION_LEVEL, TECHNOLOGY)
+
+VALUES ('InjectionToken', 'Injectable', 'InjectionToken', 'Provider', 'Directive', 'Which Angular object is used to create custom tokens for dependency injection in Angular services?', 'Hard', 'Angular');
+
